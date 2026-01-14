@@ -1,0 +1,206 @@
+import re
+import os
+
+# Get the project root directory (parent of cleaning folder)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(script_dir)
+
+with open(os.path.join(project_root, "data/ration_card/raw/ration_card_kerala.txt"), "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Normalize whitespace
+text = re.sub(r"\n{3,}", "\n\n", text)
+
+# Remove excessive bullet symbols
+text = re.sub(r"[•■▪]", "-", text)
+
+# Remove decorative elements
+text = re.sub(r"​", "", text)  # Remove zero-width spaces
+
+# Build structured output
+output = []
+
+# ## ELIGIBILITY
+output.append("## ELIGIBILITY")
+output.append("""
+- Must be an Indian citizen
+- Must be a permanent resident of Kerala
+- Must not hold any other Indian state's ration card
+- For scheme benefits, Aadhaar authentication is required (Aadhaar Act, 2016)
+- Beneficiaries above 18 years must furnish Aadhaar number or undergo Aadhaar authentication
+""")
+
+# ## CARD_TYPES
+output.append("## CARD_TYPES")
+output.append("""
+1. Priority Card (Pink/Red Card) - Below Poverty Line (BPL)
+   - Annual income less than ₹24,200
+   - Provides 5 kg of food grains free of charge monthly
+
+2. Non-Priority Card (White Card) - Above Poverty Line (APL)
+   - Annual income more than ₹100,000
+   - Eligible for 2 kg of rice at subsidized rates
+""")
+
+# ## ONLINE_APPLICATION_PROCESS
+output.append("## ONLINE_APPLICATION_PROCESS")
+output.append("""
+Portal: https://www.civilsupplieskerala.gov.in
+
+Steps:
+1. Visit the official webpage and click 'Citizen Login'
+2. Click on 'New Ration Card' option
+3. Answer if applying for a new ration card (Yes/No)
+4. Select your Taluk Supply Office (TSO) from dropdown
+5. Enter required fields:
+   - User Login ID (maximum 10 characters)
+   - Password
+   - Name
+   - Email
+   - Mobile Number
+6. Solve Captcha and click 'SUBMIT'
+7. Click activation link sent to registered email
+8. Upload required documents:
+   - Passport photo: JPG format, max 15 KB
+   - Documents: PDF format, max 200 KB each
+9. Review form and click 'Print'
+10. Sign the printed application form
+11. Upload signed application and click 'FINAL SUBMIT'
+
+For Existing Ration Card Holders:
+- Answer "No" to new ration card question
+- Provide Aadhaar number linked with ration card
+- Provide Ration card number and click VALIDATE
+- If no Aadhaar linked: Apply through Akshaya Centre
+""")
+
+# ## REQUIRED_DOCUMENTS
+output.append("## REQUIRED_DOCUMENTS")
+output.append("""
+- Duly filled and signed application form
+- Ward Councillor's certificate (residency verification)
+- Birth certificate or SSLC book
+- Proof of identity: Aadhaar card, PAN card, Voter ID, Driving licence, or Passport
+- Proof of address: Utility bills, Passport, Aadhaar card, or Rental agreement
+- Passport-sized photograph of head of family (JPG, max 15 KB)
+- Aadhaar number linked with ration card (for existing cardholders)
+""")
+
+# ## OFFLINE_APPLICATION_PROCESS (AKSHAYA)
+output.append("## OFFLINE_APPLICATION_PROCESS (AKSHAYA)")
+output.append("""
+Akshaya Centres: Government e-governance service centers (3,000+ across Kerala)
+Portal: https://akshaya.kerala.gov.in
+Centre Locator: https://akshaya.kerala.gov.in/centers
+
+Steps:
+1. Visit nearest Akshaya Centre (walk-in, no appointment needed)
+2. Collect and fill application form at counter
+3. Submit documents for verification
+4. Akshaya operator verifies information and takes photograph
+5. Pay applicable fees and receive acknowledgment
+6. Card issued within 15 days
+
+Alternative: Visit Taluk Supply Officer (TSO) or District Supply Officer (DSO) office directly.
+
+Operating Hours: 9:00 AM - 5:00 PM (Monday-Friday)
+""")
+
+# ## FEES_AND_TIMELINES
+output.append("## FEES_AND_TIMELINES")
+output.append("""
+Service Charges at Akshaya Centres:
+- General Category: ₹25 + ₹3 per page (printing/scanning)
+- Priority Card: ₹20 + ₹3 per page
+- SC/ST Category: ₹10 + ₹3 per page
+- Ration card printing fee: ₹25 per card
+- Ration card price/fee: ₹50 per card
+- Aadhaar Demographic upgrading: ₹25
+- Aadhaar Biometric upgrading: ₹25
+
+Free Services:
+- Aadhaar Enrollment
+- Children's Aadhaar Enrollment
+- Aadhaar card biometric search
+- Aadhaar biometric upgrading (age 5-15)
+
+Timelines:
+- Online processing: 5-10 days after FINAL SUBMIT
+- Offline processing: 15 days from submission
+- SMS notification sent on completion
+""")
+
+# ## FAQ
+output.append("## FAQ")
+output.append("""
+Q: How to access e-Services for Ration Cards?
+A: Visit https://www.civilsupplieskerala.gov.in, click "Citizen Login", create User Account.
+
+Q: What is the maximum limit for User Login ID?
+A: 10 characters maximum.
+
+Q: What if no Aadhaar is linked to my card?
+A: Apply through Akshaya Centre.
+
+Q: What documents can I upload?
+A: PDF (max 200 KB), JPG photos (max 15 KB).
+
+Q: What's the document verification process?
+A: Online SUBMIT → PRINT → SIGN → Upload signed → FINAL SUBMIT.
+
+Q: How long does approval take?
+A: Processing typically 5-10 days after FINAL SUBMIT.
+
+Q: Where can I collect my card?
+A: From original Akshaya Centre or local TSO/DSO Office.
+""")
+
+# ## GOVERNMENT_RULES_AND_CIRCULARS
+output.append("## GOVERNMENT_RULES_AND_CIRCULARS")
+output.append("""
+Kerala Food Security Rules, 2018 (GOK-1-2022-10-11):
+- Applicant must be Indian citizen
+- Must be resident of Kerala state
+- Must not be enrolled in any ration card elsewhere in India
+
+Card Validity:
+- Ration card valid from date of issue until surrendered
+- No automatic expiry
+- Can be renewed or modified as per government order
+
+Aadhaar Linking Requirement (Aadhaar Act, 2016 - Act No.18 of 2016):
+- Mandatory for scheme benefits
+- Purpose: Prevent duplicity and ensure eligible families receive benefits
+
+Authority:
+- Taluk Supply Officer (TSO) is designated authority to receive, register, acknowledge, and process applications
+
+Available e-Services (17 Core Services):
+1. New Ration Card
+2. Issue of Duplicate Ration Card
+3. Transfer of Cards
+4. Add Transferred Cards
+5. Change of Ownership
+6. Surrender of Cards
+7. General Details Update
+8. Change ARD
+9. Address Change
+10. Transfer of Member
+11. Addition of Member
+12. Reduction of Member
+13. Profession Change
+14. Name Correction
+15. Change Residence Status (NRK/NRI)
+16. LPG Details
+17. Bank Details
+""")
+
+# Join all sections
+final_text = "\n\n".join(output)
+
+# Create output directory if it doesn't exist
+output_dir = os.path.join(project_root, "data/ration_card/clean")
+os.makedirs(output_dir, exist_ok=True)
+
+with open(os.path.join(output_dir, "ration_card_kerala_clean.txt"), "w", encoding="utf-8") as f:
+    f.write(final_text)

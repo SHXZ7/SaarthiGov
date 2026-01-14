@@ -1,0 +1,50 @@
+[
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "ELIGIBILITY",
+    "text": "- Must be an Indian citizen\n- Must be a permanent resident of Kerala\n- Must not hold any other Indian state's ration card\n- For scheme benefits, Aadhaar authentication is required (Aadhaar Act, 2016)\n- Beneficiaries above 18 years must furnish Aadhaar number or undergo Aadhaar authentication"
+  },
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "CARD_TYPES",
+    "text": "1. Priority Card (Pink/Red Card) - Below Poverty Line (BPL)\n   - Annual income less than ₹24,200\n   - Provides 5 kg of food grains free of charge monthly\n\n2. Non-Priority Card (White Card) - Above Poverty Line (APL)\n   - Annual income more than ₹100,000\n   - Eligible for 2 kg of rice at subsidized rates"
+  },
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "ONLINE_APPLICATION_PROCESS",
+    "text": "Portal: https://www.civilsupplieskerala.gov.in\n\nSteps:\n1. Visit the official webpage and click 'Citizen Login'\n2. Click on 'New Ration Card' option\n3. Answer if applying for a new ration card (Yes/No)\n4. Select your Taluk Supply Office (TSO) from dropdown\n5. Enter required fields:\n   - User Login ID (maximum 10 characters)\n   - Password\n   - Name\n   - Email\n   - Mobile Number\n6. Solve Captcha and click 'SUBMIT'\n7. Click activation link sent to registered email\n8. Upload required documents:\n   - Passport photo: JPG format, max 15 KB\n   - Documents: PDF format, max 200 KB each\n9. Review form and click 'Print'\n10. Sign the printed application form\n11. Upload signed application and click 'FINAL SUBMIT'\n\nFor Existing Ration Card Holders:\n- Answer \"No\" to new ration card question\n- Provide Aadhaar number linked with ration card\n- Provide Ration card number and click VALIDATE\n- If no Aadhaar linked: Apply through Akshaya Centre"
+  },
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "REQUIRED_DOCUMENTS",
+    "text": "- Duly filled and signed application form\n- Ward Councillor's certificate (residency verification)\n- Birth certificate or SSLC book\n- Proof of identity: Aadhaar card, PAN card, Voter ID, Driving licence, or Passport\n- Proof of address: Utility bills, Passport, Aadhaar card, or Rental agreement\n- Passport-sized photograph of head of family (JPG, max 15 KB)\n- Aadhaar number linked with ration card (for existing cardholders)"
+  },
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "OFFLINE_APPLICATION_PROCESS (AKSHAYA)",
+    "text": "Akshaya Centres: Government e-governance service centers (3,000+ across Kerala)\nPortal: https://akshaya.kerala.gov.in\nCentre Locator: https://akshaya.kerala.gov.in/centers\n\nSteps:\n1. Visit nearest Akshaya Centre (walk-in, no appointment needed)\n2. Collect and fill application form at counter\n3. Submit documents for verification\n4. Akshaya operator verifies information and takes photograph\n5. Pay applicable fees and receive acknowledgment\n6. Card issued within 15 days\n\nAlternative: Visit Taluk Supply Officer (TSO) or District Supply Officer (DSO) office directly.\n\nOperating Hours: 9:00 AM - 5:00 PM (Monday-Friday)"
+  },
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "FEES_AND_TIMELINES",
+    "text": "Service Charges at Akshaya Centres:\n- General Category: ₹25 + ₹3 per page (printing/scanning)\n- Priority Card: ₹20 + ₹3 per page\n- SC/ST Category: ₹10 + ₹3 per page\n- Ration card printing fee: ₹25 per card\n- Ration card price/fee: ₹50 per card\n- Aadhaar Demographic upgrading: ₹25\n- Aadhaar Biometric upgrading: ₹25\n\nFree Services:\n- Aadhaar Enrollment\n- Children's Aadhaar Enrollment\n- Aadhaar card biometric search\n- Aadhaar biometric upgrading (age 5-15)\n\nTimelines:\n- Online processing: 5-10 days after FINAL SUBMIT\n- Offline processing: 15 days from submission\n- SMS notification sent on completion"
+  },
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "FAQ",
+    "text": "Q: How to access e-Services for Ration Cards?\nA: Visit https://www.civilsupplieskerala.gov.in, click \"Citizen Login\", create User Account.\n\nQ: What is the maximum limit for User Login ID?\nA: 10 characters maximum.\n\nQ: What if no Aadhaar is linked to my card?\nA: Apply through Akshaya Centre.\n\nQ: What documents can I upload?\nA: PDF (max 200 KB), JPG photos (max 15 KB).\n\nQ: What's the document verification process?\nA: Online SUBMIT → PRINT → SIGN → Upload signed → FINAL SUBMIT.\n\nQ: How long does approval take?\nA: Processing typically 5-10 days after FINAL SUBMIT.\n\nQ: Where can I collect my card?\nA: From original Akshaya Centre or local TSO/DSO Office."
+  },
+  {
+    "service": "ration_card",
+    "state": "Kerala",
+    "section": "GOVERNMENT_RULES_AND_CIRCULARS",
+    "text": "Kerala Food Security Rules, 2018 (GOK-1-2022-10-11):\n- Applicant must be Indian citizen\n- Must be resident of Kerala state\n- Must not be enrolled in any ration card elsewhere in India\n\nCard Validity:\n- Ration card valid from date of issue until surrendered\n- No automatic expiry\n- Can be renewed or modified as per government order\n\nAadhaar Linking Requirement (Aadhaar Act, 2016 - Act No.18 of 2016):\n- Mandatory for scheme benefits\n- Purpose: Prevent duplicity and ensure eligible families receive benefits\n\nAuthority:\n- Taluk Supply Officer (TSO) is designated authority to receive, register, acknowledge, and process applications\n\nAvailable e-Services (17 Core Services):\n1. New Ration Card\n2. Issue of Duplicate Ration Card\n3. Transfer of Cards\n4. Add Transferred Cards\n5. Change of Ownership\n6. Surrender of Cards\n7. General Details Update\n8. Change ARD\n9. Address Change\n10. Transfer of Member\n11. Addition of Member\n12. Reduction of Member\n13. Profession Change\n14. Name Correction\n15. Change Residence Status (NRK/NRI)\n16. LPG Details\n17. Bank Details"
+  }
+]

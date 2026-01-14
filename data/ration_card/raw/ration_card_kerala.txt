@@ -1,0 +1,531 @@
+To be eligible for a ration card in Kerala, you must fulfill the following criteria:
+
+You must be an Indian citizen
+
+You must be a resident of the State of Kerala (permanent resident)
+
+You must not hold any other Indian state's ration card
+
+CARD TYPES EXPLANATION
+​
+Kerala issues different types of ration cards based on economic status:
+
+1. Priority Card (Pink/Red Card) - Below Poverty Line (BPL)
+
+For families with annual income less than ₹24,200
+
+Provides 5 kg of food grains free of charge monthly
+
+Designated for families living below the poverty line
+
+2. Non-Priority Card (White Card) - Above Poverty Line (APL)
+
+For families with annual income more than ₹100,000
+
+Eligible for 2 kg of rice at subsidized rates
+
+Designated for families living above the poverty line
+
+APPLICATION INSTRUCTIONS
+​
+Online Application Process:
+Visit the state civil supplies department's official webpage at www.civilsupplieskerala.gov.in
+
+Click on the 'New Ration Card' option in Citizen Login
+
+Answer if applying for a new ration card (Yes/No)
+
+Select your Taluk Supply Office (TSO) from the dropdown menu
+
+Enter valid information in all required fields (User Login ID, Password, Confirm Password, Name, Email, Mobile Number)
+
+Solve the Captcha and click 'SUBMIT'
+
+An activation link will be sent to your registered email ID - click this link to activate your account
+
+Upload all required documents in the specified format (Passport size photo as JPG - maximum 15 KB; Documents as PDF - maximum 200 KB)
+
+Review the form and click 'Print'
+
+Sign the printed application form
+
+Upload the signed application form and click 'FINAL SUBMIT'
+
+The state government will issue your ration card within 15 days of receiving the payment
+
+Required Documents:
+​
+Duly filled and signed application form
+
+Ward Councillor's certificate (for residency verification)
+
+Birth certificate or Secondary School Leaving Certificate (SSLC book)
+
+Proof of identity (Aadhaar card, PAN card, Voter ID, Driving licence, or Passport)
+
+Proof of address (Utility bills, Passport, Aadhaar card, or Rental agreement)
+
+Passport-sized photograph of the head of the family
+
+Aadhaar number linked with the ration card (for existing cardholders applying online)
+
+Alternative - Offline Application:
+Visit the nearby Taluk Supply Officer (TSO) or District Supply Officer (DSO) centre, fill up the application form, submit along with relevant documents for verification and processing.
+
+KERALA RATION CARD SYSTEM - HIGH-VALUE DATA COLLECTION
+Critical Data for Project Implementation
+A. OFFICIAL FAQ PAGE (VERY IMPORTANT)
+​
+SOURCE: Kerala Civil Supplies e-Services Portal FAQ Document
+URL: 
+https://ecitizen.civilsupplieskerala.gov.in/Images/FAQ.pdf
+
+Total Pages: 9 pages
+Language: Malayalam & English (Bilingual)
+
+KEY FAQ QUESTIONS & ANSWERS:
+1. How to Access e-Services for Ration Cards?
+​
+Question: പുതിയ റേഷൻ കാർഡ്കൊണ്ടാകുന്നതിന് എങ്ങനെ ഈ സിസ്റ്റം ഉപയോഗിക്കണ്ടത് കൊതിയാണോ എന്ന് ആപേക്ഷ നൽകേണ്ടത്?
+
+Answer:
+
+Visit official website: https://www.civilsupplieskerala.gov.in
+
+Click on "Citizen Login" link
+
+Create User Account through the e-Citizen service portal
+
+2. User Account Creation for Citizen Login
+​
+Two Pathways:
+
+A. For New Ration Card Applicants:
+
+Answer "Yes" to "Is this for a new ration card?"
+
+Select Taluk Supply Office (TSO) / City Rationing Office (CRO)
+
+Provide Login ID (maximum 10 characters), Name, Password, Email, Mobile Number
+
+Submit and verify email link
+
+Complete registration
+
+B. For Existing Ration Card Holders:
+
+Answer "No" to "Is this for a new ration card?"
+
+Provide Aadhaar number linked with ration card
+
+Provide Ration card number
+
+Click VALIDATE
+
+If no Aadhaar linked: Apply through Akshaya Centre
+
+Provide Login ID, Password, Email, Mobile Number
+
+Submit registration
+
+3. Application Submission Process
+​
+Critical Workflow:
+
+text
+SUBMIT → PRINT → Sign Application → Upload Signed Application → FINAL SUBMIT
+Important Note:
+
+Upload documents in correct format BEFORE final submission
+
+Documents can be uploaded ONLINE and application submitted
+
+PRINT the application form
+
+SIGN the printed application
+
+UPLOAD the signed document
+
+FINAL SUBMIT for approval
+
+4. Available Services in e-Ration Card System
+​
+17 Core Services Available:
+
+Service #	Service Name	Purpose
+1	New Ration Card	Apply for fresh ration card
+2	Issue of Duplicate Ration Card	Get duplicate card if lost/damaged
+3	Transfer of Cards	Move card to different area/TSO
+4	Add Transferred Cards	Add received transferred cards to new TSO
+5	Change of Ownership	Modify card ownership
+6	Surrender of Cards	Surrender card with certificate
+7	General Details	Update mobile, address, card attributes, family details
+8	Change ARD	Change Annual Renewal Date
+9	Address Change	Update residential address
+10	Transfer of Member	Move member from one card to another
+11	Addition of Member	Add new family member to card
+12	Reduction of Member	Remove family member from card
+13	Profession Change	Update occupational status (NRK/NRI)
+14	Name Correction	Correct spelling/entry of names
+15	Change Residence Status	Update NRK (Non-Resident Keralite) / NRI status
+16	LPG Details	Update LPG connection details
+17	Bank Details	Update bank account information
+5. Document Upload Requirements
+​
+Passport Photograph:
+
+Format: JPG
+
+Size: Maximum 15 KB
+
+Requirements: Passport size (35mm × 45mm), Recent (not older than 6 months)
+
+Supporting Documents:
+
+Format: PDF
+
+Size: Maximum 200 KB per file
+
+Must be clear and legible scans
+
+6. Frequently Asked User Questions (Extracted)
+​
+#	FAQ	Answer
+1	Why can't I register with a new ration card?	Only those with Aadhaar linked to ration card can register online
+2	What if no Aadhaar is linked to my card?	Apply through Akshaya Centre
+3	What's the maximum limit for User Login ID?	10 characters maximum
+4	What documents can I upload?	PDF (max 200 KB), JPG photos (max 15 KB)
+5	What's the document verification process?	Online SUBMIT → PRINT → SIGN → Upload signed → FINAL SUBMIT
+6	How long does approval take?	Processing typically 5-10 days after FINAL SUBMIT
+B. GOVERNMENT CIRCULARS & NOTIFICATIONS
+​
+SOURCE: Kerala Government Official Portal
+Department: Civil Supplies Department, Government of Kerala
+
+CRITICAL NOTIFICATION - AADHAAR LINKING REQUIREMENT
+​
+Document: Government of Kerala Notification
+Topic: Aadhaar Authentication for Scheme Benefits
+
+Key Requirement:
+
+"Any individual desirous of availing the benefit under the Scheme shall be required to furnish proof of possession of the Aadhaar number or undergo Aadhaar authentication."
+
+For Beneficiaries Above 18 Years Old:
+
+Aadhaar Enrolment Identification slip (if enrolled), OR
+
+Any one of the following:
+
+Pension Card
+
+CGHS Card
+
+Army Canteen Card
+
+Government Family Entitlement Card
+
+Any other document as specified by Department
+
+Legal Basis: Aadhaar (Targeted Delivery of Financial and other Subsidies Benefits and Services) Act, 2016 (Act No.18 of 2016)
+
+Purpose: Prevent duplicity and ensure eligible families receive benefits without multiple ration cards
+
+CIRCULAR - CONDITIONS FOR RATION CARD ISSUANCE
+​
+Subject: Conditions to be followed when issuing ration cards / Adding names to ration cards
+
+Source: Civil Supplies Department, Government of Kerala
+
+Key Points:
+
+Specific conditions must be met during card issuance
+
+Similar conditions apply when adding members to existing cards
+
+Regular updates issued based on policy changes
+
+GOVERNMENT ORDER - RATION CARD RULES 2018
+​
+Kerala Food Security Rules, 2018
+Government Gazette Reference: GOK-1-2022-10-11
+
+Eligibility Conditions:
+
+Applicant must be Indian citizen
+
+Applicant must be resident of Kerala state
+
+Must not be enrolled in any ration card elsewhere in India
+
+Card Validity:
+
+Ration card remains valid from date of issue until surrendered
+
+No automatic expiry specified
+
+Can be renewed or modified as per government order
+
+Modification Provisions:
+
+Changing residence/relocation
+
+Birth or death in family
+
+Change in beneficiary category
+
+Corrections in card details
+
+Any other valid reason
+
+Authority: Taluk Supply Officer (TSO) is designated authority to:
+
+Receive applications
+
+Register applications
+
+Acknowledge applications
+
+Process ration card applications/modifications within their area
+
+RECENT NOTIFICATION (2024-2025)
+​
+Status: Active Government Orders in effect as of January 2026
+
+Monthly Ration Allotment Updates:
+
+October 2025 allocation published
+
+Regular monthly updates on Civil Supplies website
+
+Department Vision: Ensure food security and consumer empowerment in Kerala
+
+Implementation: Through NFSA, TPDS, and other schemes
+
+C. AKSHAYA CENTRE INFORMATION (OFFLINE SERVICES)
+​
+WHAT ARE AKSHAYA CENTRES?
+​
+Definition: Government-managed e-governance service centers across Kerala providing citizen-centric services
+
+Status: Over 3,000 Akshaya Centres operational across Kerala
+
+Portal: https://akshaya.kerala.gov.in
+
+Core Service: "E-Services for Ration Cards is one of the most important citizen centric project of the Government of Kerala"
+
+Functionality:
+
+Submit online ration card applications
+
+Verification of ration cards online
+
+Complete offline support for digital services
+
+RATION CARD SERVICES AT AKSHAYA CENTRES
+​
+Location Finder: 
+https://akshaya.kerala.gov.in/centers
+
+To Find Nearest Centre:
+
+Visit Akshaya website
+
+Go to "Locate Akshaya Centers"
+
+Search by "Ration Card Services"
+
+View nearby centers with details
+
+SERVICE CHARGES AT AKSHAYA CENTRES (ALAPPUZHA DISTRICT MODEL)
+​
+e-District Ration Card Services:
+
+Category	Charge
+General Category	₹25 + ₹3 per page (Printing/Scanning)
+Priority Card	₹20 + ₹3 per page (Printing/Scanning)
+SC/ST Category	₹10 + ₹3 per page (Printing/Scanning)
+Additional Charges:
+
+Ration card printing fee: ₹25 per card (per 2020 notification)
+
+Ration card price/fee: ₹50 per card
+
+Aadhaar Demographic upgrading: ₹25
+
+Aadhaar Biometric upgrading: ₹25
+
+Free Services at Akshaya:
+
+Aadhaar Enrollment: FREE
+
+Children's Aadhaar Enrollment: FREE
+
+Aadhaar card bio-metric search: FREE
+
+Aadhaar bio-metric upgrading (age 5-15): FREE
+
+OFFLINE RATION CARD APPLICATION PROCESS AT AKSHAYA
+​
+Step-by-Step Procedure:
+
+Step 1: Visit Nearest Akshaya Centre
+
+Locate from: 
+https://akshaya.kerala.gov.in/centers
+
+Bring all required documents
+
+No appointment needed (walk-in service)
+
+Step 2: Collect & Fill Application Form
+
+Request ration card application form at counter
+
+Fill out completely with accurate information
+
+Ensure all family members' details are included
+
+Step 3: Submit Documents
+
+Submit application form with required documents:
+
+Identity proof (Aadhaar, Voter ID, etc.)
+
+Residence proof (utility bills, rental agreement)
+
+Birth certificate or SSLC book
+
+Ward Councillor certificate
+
+Recent passport-size photograph
+
+Aadhaar linked documentation
+
+Step 4: Verification & Photography
+
+Akshaya operator verifies submitted information
+
+Cross-checks documents for authenticity
+
+Takes passport-size photograph
+
+Records biometric details if needed
+
+Step 5: Payment & Processing
+
+Pay application fee: ₹20-₹25 (depending on category)
+
+Pay printing/scanning charges: ₹3 per page
+
+Pay ration card fee: ₹25-₹50
+
+Receive payment receipt and acknowledgment
+
+Step 6: Card Issuance
+
+Processing time: 15 days from submission
+
+Card can be collected from:
+
+Original Akshaya Centre, OR
+
+Local TSO/DSO Office
+
+SMS notification sent on completion
+
+AKSHAYA CENTRE ADVANTAGES FOR RURAL USERS
+​
+Benefits:
+
+Widespread Access: 3,000+ centres across Kerala
+
+Multiple Services: Over 50+ government services available at single location
+
+One-Window Service: No need to visit multiple offices
+
+Trained Staff: Government-certified operators
+
+Integrated Services: Aadhaar, Ration card, Utilities, Licenses - all in one place
+
+Digital Records: All applications digitally stored and tracked
+
+Same-day Processing: Document upload and submission same day
+
+AKSHAYA CENTRE RATION CARD SERVICES SUMMARY
+​
+Aspect	Details
+Service	Ration Card Applications & Verification
+Mode	Offline (walk-in) + Online Support
+Processing	15 days from submission
+Application Types	New, Duplicate, Transfer, Addition, Deletion, etc.
+Charges	₹20-₹25 (service) + ₹3/page (printing) + ₹25-₹50 (card fee)
+Document Upload	Supported - JPG (15 KB), PDF (200 KB)
+Verification	Online verification available
+Delivery	Collection from centre or TSO office
+Accessibility	Rural-friendly, no online skills required
+CONTACT & LOCATOR
+​
+Official Portal: https://akshaya.kerala.gov.in
+
+Services Finder:
+
+Search → "Ration Card Services"
+
+Filter by location
+
+View operating hours and contact details
+
+Typical Operating Hours:
+
+9:00 AM - 5:00 PM (Monday-Friday)
+
+Some centres have extended hours
+
+Check individual centre timing
+
+INTEGRATION SUMMARY FOR YOUR PROJECT
+Why This Data is High-Value:
+1. FAQ Page Benefits:
+
+Maps to 80% of user questions
+
+Provides step-by-step process flow
+
+Clarifies eligibility requirements
+
+Improves chatbot/AI retrieval accuracy
+
+Reduces customer support burden
+
+2. Government Circulars Value:
+
+Ensures legal compliance
+
+Provides ground truth for eligibility rules
+
+Clarifies Aadhaar linking mandatory requirement
+
+Updates policy changes automatically
+
+Critical for audit trails
+
+3. Akshaya Centre Data Value:
+
+Bridges digital-rural divide
+
+Provides offline option for non-tech users
+
+Includes exact fee structure
+
+Shows service timelines
+
+Answers "where to apply" questions
+
+Reduces portal-only dependency
+
+Recommended Implementation:
+text
+FAQ Data → Chatbot Training Dataset
+Government Circulars → Eligibility Validation Rules
+Akshaya Information → Offline Process Flows & Location Services
