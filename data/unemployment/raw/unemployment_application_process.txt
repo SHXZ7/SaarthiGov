@@ -1,0 +1,175 @@
+You can treat the Kerala “Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021” as a raw text document for your RAG service on “Unemployment / Income Support”. Below is the cleaned, structured raw data (English parts only) you can directly index or store as JSON/text. [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+***
+
+## Basic metadata
+
+- **Title**: Kerala Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021 [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+- **Issuing authority**: Government of Kerala, Local Self Government (DD) Department [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+- **Notification**: G.O.(P) No.11/2021/LSGD, S.R.O. No.129/2021 [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+- **Date of notification**: 05 February 2021 [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+- **Legal basis**: Section 32(1) of the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (MGNREGA, Central Act 42 of 2005) [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+***
+
+## Rules text (raw, section-wise)
+
+### 1. Short title and commencement
+
+> 1. Short title and commencement.- (1) These rules may be called the Kerala Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021. They shall come in to force at once. [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+### 2. Definitions
+
+> 2. Definitions.- (1) In these rules, unless the context otherwise requires,  
+> (a) “Act” means the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Central Act 42 of 2005);  
+> (b) “Block” means a community development area within a district comprising of a group of Grama Panchayats;  
+> (c) “Central Rules” means the rules framed by the Government of India under the Act;  
+> (d) “District Programme Coordinator” means the District Collector designated for implementation of the Scheme in the district by the Government of Kerala;  
+> (e) “Panchayat Raj Act” means the Kerala Panchayat Raj Act, 1994 (13 of 1994);  
+> (f) “Programme Officer” means an officer not below the rank of Secretary of the Block Panchayat appointed as Block Programme Officer at Block level and where no officer is specifically appointed as Block Programme Officer, the Secretary of the Block Panchayat of the concerned Block will be the Programme Officer for implementing the Scheme;  
+> (g) “Joint Programme Co-ordinator” means a district level officer of the Rural Development Department appointed or designated as such in each district in order to assist the District Programme Co-ordinator in the implementation of the Mahatma Gandhi National Rural Employment Guarantee Scheme;  
+> (h) “State Cell” means the NREGA Cell constituted under the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Central Act 42 of 2005) by the Government of Kerala;  
+> (i) “Wage rate for Unskilled Workers” means the daily wage rate fixed by the Central Government from, time to time, for the unskilled workers working under the Mahatma Gandhi National Rural Employment Guarantee Scheme.  
+> (2) The words and expressions used but not defined in these rules and defined in the Act shall have the same meaning respectively assigned to them in the Act. [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+### 3. Eligibility to receive unemployment allowance
+
+> 3. Eligibility to receive unemployment allowance.-  
+> (1) A person who is registered under the scheme and who has given a letter offering employment shall be entitled to receive a daily unemployment allowance at the rate of one-fourth of the wage rate for unskilled worker for the first thirty days during the financial year and not less than one half of the wage rate for unskilled workers for the remaining period of the financial year:  
+> Provided the applicant for employment shall be able to produce, if necessary, the receipt issued with the date of acknowledgement of the oral or written application for employment made through any of the means indicated under paragraph 8 of the Schedule I of the Act and registered at the Grama Panchayat along with an entry in the Computer/Management Information System.  
+> (2) The liability of the State Government to pay unemployment allowance to a household during any financial year shall cease in certain circumstances in tune with the provisions of the sub-section (3) of section 7 of the Act.  
+> (3) Disentitlement to receive unemployment allowance in certain circumstances shall follow the provisions laid down in section 9 of the Act.  
+> (4) The Programme Officer can reject the payment of unemployment allowance only on grounds of force majeure. [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+### 4. Procedure for payment of unemployment allowance
+
+> 4. Procedure for payment of Unemployment Allowance.-  
+> (1) A person who has not been provided employment and is entitled to claim unemployment allowance shall make an application in Form No.1 to the Secretary of the Grama Panchayat on the next day of the fifteenth day from which he has applied for the job or from the date on which the employment has been sought in the case of an advanced petition, whichever is later.  
+> (2) A copy of the acknowledgement/receipt issued in Form No.2 while handing over the application seeking employment shall be attached along with the application for unemployment allowance.  
+> (3) On receipt of the application, Secretary of the Grama Panchayat concerned shall verify the claim made by the applicant and certify the actual days for which unemployment allowance has to be paid, after a thorough cross verification of the Job Card Register, Employment Register, Management Information System of the Mahatma Gandhi National Rural Employment Guarantee Scheme and Muster Rolls. If he is satisfied that the applicant had duly submitted application for employment under the scheme but was not provided the job within the prescribed time limit as envisaged in sub-section (1) of section 7 of the Act and that the applicant is entitled for payment of unemployment allowance, he shall forward the application to the Programme Officer along with his remarks.  
+> (4) The Programme Officer based on the receipt of the application and the justification of the Secretary of the Grama Panchayat thereto, shall, independently appraise the facts and situation and issue appropriate orders based on the merits of the claim and cause payment of the unemployment allowance to the applicant through the Secretary of the Grama Panchayat concerned. The orders shall be communicated to the applicant seeking unemployment allowance and also to the person/persons responsible for creating the liability leading to the payment of unemployment allowance.  
+> (5) The unemployment allowance payable by State Government shall be met from the amount earmarked for the purpose by the State Government and placed with the State Cell in a separate account. The Mahatma Gandhi National Rural Employment Guarantee Scheme State Mission on receiving the claim from the Block Programme Officer shall release the amount to the concerned District Programme Co-ordinator for effecting payment. The District Programme Co-ordinator shall maintain a separate account for this purpose:  
+> Provided that no cash payments are permitted and the District Programme Co-ordinator shall not make payment of unemployment allowance out of the fund received from the Central or State Government meant for the implementation of the Scheme.  
+> (6) The District Programme Co-ordinator shall release the amount to the Mahatma Gandhi National Rural Employment Guarantee Scheme account maintained at the Grama Panchayat for payment to the workers. The Grama Panchayat inturn will credit the said amount to the account of the worker concerned through electronic fund management system.  
+> (7) If the Programme Officer rejects the demand for unemployment allowance, he shall record the reasons for rejecting the same and intimate the same to the applicant in writing.  
+> (8) The Grama Panchayat while making payment of unemployment allowances to eligible applicants shall do so in the manner as directed by the State Government.  
+> (9) The Secretary of the Grama Panchayat shall submit monthly statement in the register in Annexure, to the Programme Officer regarding the payment of unemployment allowance made by him. [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+### 5. Appeals
+
+> 5. Appeals.-  
+> (1) Any person aggrieved by the order of the Programme Officer may file an appeal in writing, in Form No.3 within thirty days of the receipt of such order to the District Programme Co-ordinator and such appeal shall be disposed of within a period of fifteen days by him after conducting a summary enquiry.  
+> (2) Recoveries, if any, from whomsoever concerned, consequent to the order of the appellate authority, shall be effected by the Grama Panchayat by recovering the amount in lump or in equal monthly installments from the salary in the case of permanent employees or from the wage in the case of contract employees at the rate fixed by the Programme Officer by initiating revenue recovery process. [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+***
+
+## Forms (raw text)
+
+You can store each Form as a separate schema in your RAG index.
+
+### Form No.1 – Application for Unemployment Allowance
+
+Heading:
+
+> Form No.1  
+> (See sub-rule (1) of rule 4)  
+> APPLICATION FOR UNEMPLOYMENT ALLOWANCE  
+> The Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021.  
+> Name of Grama Panchayat - _____________ Application No. …__________/Year  
+> Name of Block - _____________ [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+Fields:
+
+> Sl. No / Particulars / Details  
+> 1 Name  
+> 2 Address  
+> 3 Job Card No  
+> 4 Aadhaar No.  
+> 5 Name of the bank in which account opened with Account No.  
+> 6 No. of days of job already received during the year  
+> 7 Amount received in the bank account as Unskilled Wages  
+> 8 Date on which Job demanded  
+> 9 No. of days of job demanded  
+> 10 Whether advance date requested – Yes/No  
+> 11 If yes, advance date  
+> 12 Whether dated receipt issued for the job demanded attached – Yes/No  
+> 13 If no, reasons thereof  
+> 14. Report of the Grama Panchayat Secretary with signature  
+> 15. Award of the Block Programme Officer with signature {Rule 4(4)}  
+> (To be prepared in duplicate – one copy to be served to the applicant)  
+> If allowance is awarded mention whether Government or Panchayat is liable to pay as per rule 4(5) of the Rules  
+> Place:  
+> Name and Signature of the Applicant  
+> Date: [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+### Form No.2 – Acknowledgement Receipt of the Application for Job
+
+> Form No.2  
+> (See sub-rule (2) of rule 4)  
+> ACKNOWLEDGEMENT RECEIPT OF THE APPLICATION FOR JOB  
+> The Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021  
+> Name of Grama Panchayat - _____________ Name of Block - _____________  
+> Application for work from Sri/Smt.......................... s/o/w/o................................. residing at (address) ........................ Grama Panchayat ...................... whose Job Card number is ......................... on ............ (dd/mm/yy)  
+> Date:  
+> Signature of the Secretary of Grama Panchayat  
+> (Office Seal) [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+### Form No.3 – Application for Appeal
+
+> Form No.3  
+> (See rule 5)  
+> APPLICATION FOR FILING APPEAL BEFORE THE DISTRICT PROGRAMME CO-ORDINATOR  
+> The Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021  
+> Name of Grama Panchayat - _____________ Appeal No. ................/Year.......  
+> Name of Block - _____________ [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+Fields:
+
+> Sl. No / Particulars / Details  
+> 1 Name  
+> 2 Address  
+> 3 Job Card No  
+> 4 Date on which application for unemployment allowance filed before Grama Panchayat Secretary  
+> 5 Whether copy of the award of Block Programme Officer enclosed – Yes/No  
+> 6 Justifications for filing the Appeal  
+> Findings of the District Programme Officer  
+> Place:  
+> Name and Signature of the Officer  
+> Date: [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+***
+
+## Annexure – Monthly Statement Register
+
+> ANNEXURE  
+> REGISTER  
+> (See sub-rule (9) of rule 4)  
+> MONTHLY STATEMENT OF THE DETAILS OF UNEMPLOYMENT ALLOWANCE  
+> The Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021 [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+Columns:
+
+> Sl. No  
+> Name of Worker  
+> Date and number of days for which unemployment allowance paid – From / To / Number of Days  
+> Rate at which Allowance given  
+> Total amount paid  
+> Reasons for not providing work  
+> Signature of Grama Panchayat Secretary  
+> Place:  
+> Date:  
+> Name and Signature of the Secretary of the __________ Grama Panchayat  
+> (Office Seal) [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+***
+
+## Explanatory note (raw)
+
+> Explanatory Note  
+> (This does not form part of the notification, but is intended to indicate its general purport.)  
+> Sub section (1) of section 32 of the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Central Act 42 of 2005) empowers the State Government to make rules to carry out provisions of the Act subject to the condition of previous publication. Accordingly the draft of the Kerala Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021 was issued under notification G.O(P) No. 2/2020/LSGD dated 8th January, 2020 and published in the Kerala Gazette Extraordinary No.400 dated 7th February 2020. After considering the objections and suggestions received within the stipulated time limit and after the previous publication of the said Rules, the Government have now decided to issue Rules for the above purpose.  
+> This notification is intended to achieve the above said object. [nregs.kerala.gov](https://nregs.kerala.gov.in/wp-content/uploads/2021/02/unemp.pdf)
+
+***
+
+If you want, the next step can be a ready-to-use JSON schema for your RAG index (sections, fields, Q&A-ready chunks) specifically tailored as the “Unemployment / Income Support” service endpoint.

@@ -1,0 +1,91 @@
+For birth certificates in Kerala, the system should guide users through who can register, time limits, documents, process (online/offline), where to apply, and special situations like home birth, corrections, and duplicates, using K-SMART/ILGMS and local bodies as the core reference points. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+## A. Eligibility
+
+- **Who can apply/register**  
+  - Birth must be registered in the registration unit where the birth occurred (Panchayat, Municipality, Corporation, or Kannur Cantonment Board). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Births and deaths are registered under the Registration of Births and Deaths Act 1969 and Kerala Birth and Death Registration Rules 1999, so normally parents or legal guardians are the informants; for institutional births, hospital authorities may also report to the local body. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Jurisdiction (local body)**  
+  - Registration unit is:  
+    - Any of the 941 Gram Panchayats, 87 Municipalities, 6 Municipal Corporations, or Kannur Cantonment Board where the birth actually took place. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Certificates are issued by that same local registration unit through its online system (K-SMART for urban, ILGMS for Panchayats). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+## B. Registration timelines
+
+- **Normal period**  
+  - Birth must be reported within 21 days of occurrence. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Late registration (21–30 days)**  
+  - Registration after 21 days and up to 30 days is allowed at the registration unit on payment of a fine (amount fixed by rules/notifications). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Very late registration**  
+  - After 30 days and up to 1 year:  
+    - In Gram Panchayats, the District Birth and Death Registrar can sanction registration at the Panchayat. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+    - In Municipalities/Corporations, the Municipal Secretary can sanction registration. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - After 1 year:  
+    - Registration requires permission of the Revenue Divisional Officer (RDO). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+## C. Documents required
+
+(The portal text gives procedure-level rules; exact document lists are typically shown inside K-SMART/ILGMS. The system should structure requirements as below, aligned with Kerala practice.)
+
+- **Hospital birth (institutional)**  
+  - Medical birth report/certificate from hospital (issued by the institution where delivery occurred) submitted to the local body where the hospital is located. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Parent ID/address proof and marriage details may be requested by the local body; system should prompt user as per K-SMART/ILGMS checklist for the chosen local body. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Home birth**  
+  - Statement from the person who attended the delivery (doctor, nurse, trained health worker, or other responsible person) as per rules, submitted to the local body of place of birth. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Supporting ID/address documents of parents and informant as per local body list surfaced by K-SMART/ILGMS. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Late registration (beyond 21 days)**  
+  - Standard birth proof (hospital record or credible witness/doctor certificate for home birth). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Additional supporting documents and affidavits as required by:  
+    - District Birth and Death Registrar (if 30 days–1 year). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+    - Revenue Divisional Officer (if after 1 year), along with order copy when granted. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+## D. Application process
+
+- **Online**  
+  - Urban local bodies (Municipalities/Corporations):  
+    - Birth registration and certificate issue are done online through the K-SMART application. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+    - Citizens can apply and later download certificates from the K-SMART Citizen Portal using date of birth and mother’s name (or first 3 letters) via “Certificate Search”. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Gram Panchayats:  
+    - Birth registration and certificate issue are online through ILGMS. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+    - Certificates are downloadable from ILGMS Citizen Portal using date of birth and mother’s name (or first 3 letters) via “Certificate Search”. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Mode of submission:  
+    - Mobile phones, Akshaya Kendras, or direct submission at front office of the local self-government body where birth occurred, even for online processing. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Offline (front office)**  
+  - Applicant can visit the concerned Gram Panchayat, Municipality, or Corporation office where the birth occurred and submit the birth report and documents at the front office; the registration is then completed in ILGMS/K‑SMART backend. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+## E. Where to apply
+
+- **Local Self Government Institutions**  
+  - Gram Panchayat office if birth occurred within Panchayat limits (handled via ILGMS). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Municipality or Corporation office if birth occurred in urban area (handled via K‑SMART). [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Kannur Cantonment Board if birth occurred within that jurisdiction. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Hospitals (institutional births)**  
+  - For births in hospitals, the hospital usually reports to the local registration unit through the online system, but parents may still need to confirm details or request the certificate from the concerned local body or citizen portal. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+## F. Special cases
+
+- **Home birth**  
+  - Must still be registered in the local registration unit of place of birth, following the same timelines (21 days, late, very late) and supported by statement/certificate from the person who attended the delivery, plus any affidavits for late cases. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Adoption**  
+  - Birth remains registered in the local body where the child was born, and subsequent changes/endorsements (such as adoptive parents’ names) are handled as per Registration of Births and Deaths Act and Kerala Rules via that local body, often requiring legal/adoption order and supporting documents; the system should route the user to the concerned local body’s process within K‑SMART/ILGMS. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Correction of name/date and other errors**  
+  - Under Section 15 of the Registration of Births and Deaths Act, 1969, mistakes in registration can be rectified by the local registrar following prescribed procedure. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - For entries before 1970, inclusion of names and corrections require permission of the Chief Registrar. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - Child’s name:  
+    - If birth was registered without child’s name, the name may be added by paying late fee of Rs. 5 up to one year. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+    - In cases where 15 years have elapsed since name entry, name can be entered up to 13‑07‑2026 as per current rule. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+
+- **Duplicate certificate**  
+  - Citizens can download additional/duplicate birth certificates any time from:  
+    - K‑SMART Citizen Portal for Municipalities/Corporations, using date of birth and mother’s name (or first 3 letters) in Certificate Search. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+    - ILGMS Citizen Portal for Gram Panchayats, with the same search fields. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)
+  - If online download is not possible, additional copies can be requested at the concerned local body office, which will issue certificates from the online system. [lsgd.kerala.gov](https://lsgd.kerala.gov.in/en/digital-services/)

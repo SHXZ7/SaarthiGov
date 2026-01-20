@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [query, setQuery] = useState("");
+  const [service, setService] = useState("");
   const [answer, setAnswer] = useState("");
   const [sources, setSources] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -25,6 +26,7 @@ export default function Home() {
           query: query,
           top_k: 5,
           include_sources: true,
+          service: service || null,
         }),
       });
 
@@ -42,27 +44,42 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 p-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-2xl font-bold mb-4">
+        <h1 className="text-2xl text-black font-bold mb-4">
           Kerala Government Services Assistant (Demo)
         </h1>
 
-        <p className="text-gray-600 mb-6">
-          Ask a question about ration card services (English or Malayalam).
+        <p className="text-black mb-6">
+          Ask a question about government services (English or Malayalam).
         </p>
 
-        <div className="flex gap-2 mb-6">
+        <div className="flex gap-2 mb-4">
+          <select
+            value={service}
+            onChange={(e) => setService(e.target.value)}
+            className="border border-gray-300 rounded px-3 py-2 bg-white text-gray-700"
+          >
+            <option value="">All Services</option>
+            <option value="ration_card">Ration Card</option>
+            <option value="birth_certificate">Birth Certificate</option>
+            <option value="unemployment_allowance">Unemployment Allowance</option>
+          </select>
+        </div>
+
+        <div className="flex gap-2 text-black mb-6">
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="e.g. Akshaya centre ration card process"
+            onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+            placeholder="e.g. How to apply for birth certificate online?"
             className="flex-1 border border-gray-300 rounded px-3 py-2"
           />
           <button
             onClick={handleSearch}
-            className="bg-blue-600 text-white px-4 py-2 rounded"
+            disabled={loading}
+            className="bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50"
           >
-            Search
+            {loading ? "Searching..." : "Search"}
           </button>
         </div>
 
@@ -71,7 +88,16 @@ export default function Home() {
         {answer && (
           <div className="mb-6">
             <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-              <h2 className="font-semibold text-lg text-gray-800 mb-3">Answer</h2>
+              <div className="flex items-center justify-between mb-3">
+                <h2 className="font-semibold text-lg text-gray-800">Answer</h2>
+                {service && (
+                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">
+                    {service === "ration_card" ? "Ration Card" : 
+                     service === "birth_certificate" ? "Birth Certificate" : 
+                     "Unemployment Allowance"}
+                  </span>
+                )}
+              </div>
               <div className="prose prose-sm text-gray-700 whitespace-pre-wrap">
                 {answer}
               </div>
@@ -101,7 +127,7 @@ export default function Home() {
         )}
 
         {!answer && !loading && (
-          <p className="text-gray-400 mt-6">
+          <p className="text-black mt-6">
             No results yet. Ask a question to see retrieved government content.
           </p>
         )}

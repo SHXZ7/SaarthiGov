@@ -1,0 +1,136 @@
+Kerala has a specific Unemployment Allowance Scheme under the Labour & Skills Department, and several income/welfare assistance schemes are implemented through Local Self Government Institutions (LSGIs) like grama panchayats and municipalities. Below is the raw, structured information you can reuse for notes, datasets, or further processing. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+
+## 1. Labour & Skills: Unemployment Allowance
+
+**Scheme basics**  
+- Name: Unemployment Allowance Scheme (UAS). [lsgkerala.gov](http://lsgkerala.gov.in/en/welfarepension/iop)
+- Department: National Employment Service – Kerala (under Labour & Skills), implemented via Local Bodies. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Benefit amount: Rs. 120 per month (dole). [lsgkerala.gov](http://lsgkerala.gov.in/en/welfarepension/iop)
+- Introduced via: G.O.(P) No.40/82/LBR dated 12/11/1982. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Transferred to LSGIs via: G.O.(P) No.23/98/LBR dated 28/05/1998. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+
+**Eligibility rules (UAS – raw conditions)**  
+- Must be registered in Employment Exchange in Kerala. [lsgkerala.gov](http://lsgkerala.gov.in/en/welfarepension/iop)
+- Minimum registration seniority: 3 years after completing 18 years of age (general). [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Age limits:  
+  - Lower: 18 years (registration counted after 18). [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+  - Upper: 35 years. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Education – General category: SSLC pass. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Education – SC/ST: must have at least appeared for SSLC examination after regular schooling. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Physically handicapped:  
+  - Must have attended SSLC examination after regular schooling. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+  - Continuous registration seniority: 2 years after attaining 18 years. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Income conditions:  
+  - Annual family income limit: Rs. 12,000. [lsgkerala.gov](http://lsgkerala.gov.in/en/welfarepension/iop)
+  - Personal monthly income of applicant: should not exceed Rs. 100 per month. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Exclusions: Students are not eligible. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+
+**Implementation & process (UAS)**  
+- Application:  
+  - Submit application in prescribed form to concerned Local Body (Grama Panchayat / Municipality / Corporation) at any time as per revised norms. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Verification:  
+  - Employment Exchanges verify applications. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+  - Welfare Standing Committee of the Local Body examines and may sanction or reject on merit. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Disbursement:  
+  - Funds: Government → Director of Employment → District Employment Officers → Local Bodies. [lsgkerala.gov](http://lsgkerala.gov.in/en/welfarepension/iop)
+  - Local Bodies disburse monthly allowance installments to beneficiaries. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+  - Eligible candidate receives allowance from the month following sanction, subject to authorization and fund availability. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Appeal:  
+  - Rejected applicants can appeal to the District Collector within 60 days of receipt of rejection memo. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Monitoring:  
+  - Controlling authority: Director of Employment. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+  - District Employment Officers inspect Local Body accounts; regular audits are conducted. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+
+**Key identifiers useful as raw fields**  
+- Scheme_ID: “Unemployment Allowance Scheme – NES Kerala”. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- GO_Intro: G.O.(P) 40/82/LBR, 12-11-1982. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- GO_Transfer_LSGI: G.O.(P) 23/98/LBR, 28-05-1998. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Benefit_Amount_Monthly: 120. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Family_Income_Limit_Annual: 12000. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Personal_Income_Limit_Monthly: 100. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+
+***
+
+## 2. LSGD: Welfare assistance via Panchayat/Municipality
+
+**Social welfare pensions (LSGD umbrella)**  
+- Implementing agency: Local Self Government Institutions (Grama Panchayat / Municipality / Corporation). [lsgkerala.gov](https://lsgkerala.gov.in/en/welfarepension)
+- Examples under Social Welfare Pension:  
+  - Indira Gandhi National Old Age Pension (NOAP). [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+  - Other categories: widow, disability, agriculture workers etc. (grouped under Social Security Pensions). [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+
+**General LSGI application process (pensions/assistance)**  
+- Application:  
+  - Submit in prescribed format to Secretary of concerned Grama Panchayat / Municipality / Corporation. [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+- Local enquiry:  
+  - In Grama Panchayat: enquiry by Village Extension Officer (VEO) or officer appointed by Secretary. [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+  - In Municipality/Corporation: enquiry by Revenue Inspector or officer appointed by Secretary. [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+- Sanction:  
+  - Recommendations processed and placed before Local Body committee; if approved, pension starts from first week of next month subject to funds. [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+- Disbursement:  
+  - Pension amount as fixed by Government from time to time, delivered through channels notified (including changes ordered by Finance Department). [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+
+**Example: Indira Gandhi National Old Age Pension – key rules**  
+- Age: 60 years or higher. [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+- Residence: Continuous residence in Kerala for at least 3 years. [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+- Annual family income: ≤ Rs. 1,00,000. [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+- Must apply in the local body where residing; not eligible if receiving other Social Welfare pensions (as per rules). [lsgkerala.gov](http://lsgkerala.gov.in/en/orders)
+
+***
+
+## 3. Scheme circulars / notifications (income & welfare assistance)
+
+Below are raw references you can mine for G.O. numbers, dates, and rule changes.
+
+### Unemployment / income support related
+
+- UAS introduction: G.O.(P) No.40/82/LBR dated 12/11/1982 – Unemployment Allowance Scheme. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+- Transfer to Local Bodies: G.O.(P) No.23/98/LBR dated 28/05/1998 – UAS handed over to Panchayats/Municipalities. [employment.kerala.gov](https://employment.kerala.gov.in/en/unemployment-allowance-scheme/)
+
+### Social security / welfare pension circulars
+
+From Social Security System order list (LSGD/Finance): [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+- GO references (examples visible in orders list page):  
+  - G.O.(MS) 408/2017/Fin dated 30/08/2017 – Social Security Pension distribution via primary agricultural credit societies and other cooperative credit societies, revised procedures. [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+  - G.O.(MS) 67/2017/Fin dated 06/02/2017 – Universal Social Security Pension, streamlining conditions for Social Security Pensions, modifications. [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+  - G.O.(MS) 34/2017/Fin dated 21/01/2017 – Universal Social Security Pensions, modifying eligibility conditions and clarifying receipt of Welfare Fund Board pensions along with Social Security Pensions. [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+  - GO (Ms) No.282/2016/Fin – Social Security Pension; enhancement of minimum pension and limiting entitlement to any one pension. [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+  - G.O.(P)No.1/97/SWD dated 01/01/1997 – Social Welfare; Social Security Pension; rate of pension enhanced. [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+  - G.O.(P)23/82/LBR dated 13/07/1982 – referenced on pension orders page, related to Social Security Pension arrangements. [welfarepension.lsgkerala.gov](https://welfarepension.lsgkerala.gov.in/OrdersEng.aspx)
+
+### Where to pull more raw data
+
+- LSGD Welfare Pension main portal: scheme details, categories, and flags for “Universal Social Security Pension”. [lsgkerala.gov](https://lsgkerala.gov.in/en/welfarepension)
+- LSGD Orders page (Govt. Orders): filter/search by keywords “welfare pension”, “financial assistance”, “unemployment assistance”, etc., to extract more circulars. [finance.kerala.gov](https://www.finance.kerala.gov.in/penOrdr.jsp)
+- Finance Department pension orders: searchable list of pension-related GOs (includes guidelines on disbursement timing and procedures). [eemployment.kerala.gov](https://eemployment.kerala.gov.in)
+- Employment@Kerala “Connect to Work” scheme: separate skill-training-linked financial assistance (e.g., Rs. 1,000/month for youth 18–30 with annual family income ≤ Rs. 5 lakh, during training/competitive exam preparation) – can be treated as another income-support field if you are building a dataset. [indiacode.nic](https://www.indiacode.nic.in/bitstream/123456789/17478/1/employment_guarantee_workers_welfare_fund_act.pdf)
+
+***
+
+## 4. Ready-to-use field list (for your “raw data” capture)
+
+If you are creating a CSV/JSON, the following fields will cover most things you asked for:
+
+- scheme_name  
+- implementing_department (Labour & Skills / LSGD / Finance / Social Welfare)  
+- implementing_agency_LSGI (Y/N; description)  
+- GO_number_intro  
+- GO_date_intro  
+- GO_number_latest_revision  
+- benefit_type (unemployment_allowance / social_security_pension / training_allowance / other)  
+- benefit_amount_monthly  
+- age_min  
+- age_max  
+- education_requirement  
+- registration_requirement (for UAS: Employment Exchange registration + seniority years)  
+- family_income_limit_annual  
+- personal_income_limit_monthly  
+- special_category_rules (SC/ST, disabled etc.)  
+- student_eligibility (eligible/ineligible)  
+- application_channel (Panchayat / Municipality / Corporation / Online portal)  
+- enquiry_officer (VEO / Revenue Inspector / other)  
+- appeal_authority (e.g., District Collector for UAS)  
+- controlling_authority (Director of Employment / LSGD / Finance)  
+- key_GOs_list (array of all related GO numbers with dates)
+
+If you tell the exact format you want (CSV headers or JSON template), a structured extract for UAS + main LSGD welfare pensions can be generated next.

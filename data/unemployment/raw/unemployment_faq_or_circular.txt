@@ -1,0 +1,379 @@
+Section: Unemployment Assistance Scheme – General FAQs
+
+Q1. What is the Unemployment Assistance Scheme?
+A1. The Unemployment Assistance Scheme is a state-level support program that provides a fixed monthly financial assistance to eligible unemployed residents who are actively seeking work and meet prescribed income and age criteria.
+
+Q2. Who is eligible for unemployment assistance?
+A2. An applicant is eligible if they:
+    1. Are a permanent resident of the state.
+    2. Are currently unemployed and not enrolled in any full‑time educational course.
+    3. Belong to a household with total monthly income below the notified threshold.
+    4. Are within the age limits specified for the scheme (for example, 18–60 years).
+    5. Are not receiving any other regular social security pension or unemployment benefit from central or state schemes.
+
+Q3. What is the monthly assistance amount?
+A3. The monthly assistance amount is a fixed sum notified by the government from time to time. The amount may differ for specific categories such as persons with disabilities or long‑term unemployed persons, as per separate government orders.
+
+Q4. How can an applicant submit an application?
+A4. Applications can be submitted:
+    1. Online through the official unemployment assistance portal using Aadhaar‑based registration.
+    2. Offline by submitting the prescribed application form at the local body office along with supporting documents.
+    The mode of submission and cut‑off dates are notified by the competent authority.
+
+Q5. Which documents are required along with the application?
+A5. The applicant generally has to submit:
+    1. Proof of identity and residence (such as Aadhaar or voter ID).
+    2. Recent passport‑size photograph.
+    3. Income certificate issued by the competent authority.
+    4. Bank account details for Direct Benefit Transfer.
+    5. Self‑declaration of unemployment and non‑receipt of other similar benefits.
+    The exact list of documents is prescribed in the relevant government orders.
+
+Q6. How is eligibility verified?
+A6. Eligibility is verified through:
+    1. Scrutiny of documents by the local office.
+    2. Cross‑verification with other welfare databases to avoid duplication.
+    3. Field verification, if required, by authorized officials.
+    The sanctioning authority records the decision with reasons in the system.
+
+Q7. How will the assistance be disbursed?
+A7. Assistance is disbursed through Direct Benefit Transfer to the bank account linked with the applicant’s identity number. Payments are generally made on a monthly or quarterly basis as notified by the government.
+
+Q8. Can an ineligible sanction be cancelled later?
+A8. If it is found that assistance was sanctioned based on incorrect information, forgery, or suppression of facts, the sanction may be cancelled and excess amounts recovered as per the procedure specified in the scheme guidelines and government orders.
+
+Q9. How can a beneficiary update bank or contact details?
+A9. Beneficiaries can update their bank account, mobile number, or address either online through the portal or by submitting a change‑request form at the local office with supporting documents. Changes take effect after verification and approval.
+
+Q10. What is the grievance redressal mechanism?
+A10. Applicants and beneficiaries can file complaints or appeals:
+     1. Online through the grievance module of the portal.
+     2. In writing at the local body office.
+     Grievances are to be acknowledged and disposed of within the time limit specified in the scheme guidelines.
+
+Section: Unemployment Assistance – Circular Template (Sample)
+
+1. Title
+   Government Order on Operational Guidelines for the Unemployment Assistance Scheme.
+
+2. Objective
+   To prescribe detailed procedures for registration, eligibility verification, sanction, and disbursement of unemployment assistance to eligible applicants.
+
+3. Scope
+   These guidelines apply to all local bodies responsible for processing applications and disbursing unemployment assistance under the scheme.
+
+4. Application Procedure
+   4.1 Applicants shall submit applications in the prescribed format either online or at the designated local office.
+   4.2 The receiving officer shall verify that all mandatory fields are filled and that supporting documents are attached.
+   4.3 Incomplete applications shall be returned to the applicant with a clear list of deficiencies.
+
+5. Verification and Sanction
+   5.1 The verification officer shall confirm:
+       a) Identity and residence of the applicant.
+       b) Household income status.
+       c) Non‑receipt of overlapping benefits from other schemes.
+   5.2 After verification, the competent authority shall record a speaking order approving or rejecting the application, with reasons.
+
+6. Disbursement
+   6.1 Benefits shall be disbursed only through Direct Benefit Transfer to verified bank accounts.
+   6.2 The disbursing authority shall generate payment orders through the approved software system.
+
+7. Periodic Review
+   7.1 Beneficiary lists shall be reviewed at least once every year to confirm continued eligibility.
+   7.2 Cases of ineligibility shall be removed following due process, with prior notice to the beneficiary.
+
+8. Recovery and Legal Action
+   8.1 Any excess payment made due to misrepresentation or fraud shall be recoverable as arrears, in accordance with existing rules.
+   8.2 Serious cases may be referred for appropriate legal action.
+
+9. Monitoring and Reporting
+   9.1 Local bodies shall submit periodic reports on applications received, sanctioned, rejected, and pending.
+   9.2 Consolidated data shall be used for state‑level monitoring and policy review.
+
+10. Effective Date
+    These guidelines come into force from the date of issue of this order and remain valid until further orders.
+Here is a ready-to-use FAQ-style raw dataset (Q–A pairs) derived from the Unemployment Allowance Rules, 2021 that you can feed directly into your RAG / fine-tuning pipeline. Each Q–A is intentionally short and atomic.
+​
+
+You can store it as JSON, CSV, or any vector DB schema.
+
+Basic scheme FAQs
+Q1. What are the Kerala Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021?
+A1. They are rules framed by the Government of Kerala under section 32(1) of MGNREGA, 2005, to govern payment of unemployment allowance in the state.
+​
+
+Q2. When did the Kerala Unemployment Allowance Rules, 2021 come into force?
+A2. The Kerala Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021 came into force at once from 05 February 2021.
+​
+
+Q3. Under which central law are these unemployment allowance rules made?
+A3. These rules are made under the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Central Act 42 of 2005).
+​
+
+Q4. Who issues these unemployment allowance rules in Kerala?
+A4. The rules are issued by the Government of Kerala, Local Self Government (DD) Department.
+​
+
+Definitions FAQs
+Q5. What does “Act” mean in these rules?
+A5. “Act” means the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Central Act 42 of 2005).
+​
+
+Q6. What is a “Block” according to these rules?
+A6. “Block” means a community development area within a district comprising a group of Grama Panchayats.
+​
+
+Q7. What are “Central Rules” in this context?
+A7. “Central Rules” are the rules framed by the Government of India under the Mahatma Gandhi National Rural Employment Guarantee Act, 2005.
+​
+
+Q8. Who is the District Programme Coordinator?
+A8. The District Programme Coordinator is the District Collector designated by the Government of Kerala for implementing the scheme in the district.
+​
+
+Q9. What does “Panchayat Raj Act” refer to in these rules?
+A9. “Panchayat Raj Act” means the Kerala Panchayat Raj Act, 1994 (Act 13 of 1994).
+​
+
+Q10. Who is the Programme Officer under these rules?
+A10. The Programme Officer is an officer not below the rank of Secretary of the Block Panchayat appointed as Block Programme Officer; if none is appointed, the Block Panchayat Secretary acts as Programme Officer.
+​
+
+Q11. Who is the Joint Programme Co-ordinator?
+A11. The Joint Programme Co-ordinator is a district level officer of the Rural Development Department appointed or designated to assist the District Programme Co-ordinator in implementing the scheme.
+​
+
+Q12. What is the “State Cell” in the context of these rules?
+A12. “State Cell” means the NREGA Cell constituted under MGNREGA, 2005 by the Government of Kerala.
+​
+
+Q13. What is the “wage rate for unskilled workers” in these rules?
+A13. It is the daily wage rate fixed by the Central Government from time to time for unskilled workers under the Mahatma Gandhi National Rural Employment Guarantee Scheme.
+​
+
+Eligibility and entitlement FAQs
+Q14. Who is eligible to receive unemployment allowance under these rules?
+A14. A registered person under the scheme who has applied for work and not been provided employment within the prescribed time is eligible to receive unemployment allowance.
+​
+
+Q15. What document must the applicant be able to produce for unemployment allowance?
+A15. The applicant must be able to produce the dated receipt acknowledging the oral or written application for employment, as registered at the Grama Panchayat and entered in the MIS.
+​
+
+Q16. What is the unemployment allowance rate for the first thirty days in a financial year?
+A16. For the first thirty days during a financial year, the unemployment allowance rate is one-fourth of the wage rate for unskilled workers.
+​
+
+Q17. What is the unemployment allowance rate after the first thirty days in a financial year?
+A17. For the remaining period of the financial year, the unemployment allowance is not less than one-half of the wage rate for unskilled workers.
+​
+
+Q18. When does the State Government’s liability to pay unemployment allowance cease?
+A18. The liability ceases in the circumstances specified in section 7(3) of the MGNREGA, such as after providing 100 days of employment to the household in a financial year.
+​
+
+Q19. In what situations is a person disentitled to receive unemployment allowance?
+A19. Disentitlement occurs in circumstances laid down in section 9 of the MGNREGA, such as refusal of offered work or not reporting for work.
+​
+
+Q20. On what grounds can the Programme Officer reject payment of unemployment allowance?
+A20. The Programme Officer can reject payment of unemployment allowance only on grounds of force majeure.
+​
+
+Application and process FAQs
+Q21. How does a person apply for unemployment allowance?
+A21. A person applies by submitting Form No.1 to the Secretary of the Grama Panchayat after the fifteenth day from the date they applied for work, or from the requested employment date in an advance petition, whichever is later.
+​
+
+Q22. Is there a time condition for applying for unemployment allowance?
+A22. Yes. The application in Form No.1 must be made on the next day after the fifteenth day from when the person applied for the job or requested the employment date in an advance petition.
+​
+
+Q23. Which form is used to claim unemployment allowance?
+A23. Form No.1, titled “Application for Unemployment Allowance,” is used to claim unemployment allowance.
+​
+
+Q24. What must be attached to the unemployment allowance application?
+A24. A copy of the acknowledgement or receipt issued in Form No.2 for the application seeking employment must be attached.
+​
+
+Q25. Who verifies the unemployment allowance claim initially?
+A25. The Secretary of the Grama Panchayat verifies the claim and certifies the actual days for which unemployment allowance is to be paid.
+​
+
+Q26. What records are checked when verifying an unemployment allowance claim?
+A26. The Job Card Register, Employment Register, the scheme’s Management Information System, and Muster Rolls are cross-verified.
+​
+
+Q27. What does the Grama Panchayat Secretary do after verifying the claim?
+A27. If satisfied that the applicant was entitled and not provided work in time, the Secretary forwards the application with remarks to the Programme Officer.
+​
+
+Q28. What is the role of the Programme Officer in unemployment allowance payment?
+A28. The Programme Officer appraises the facts, issues orders on the claim, and causes payment of unemployment allowance through the Grama Panchayat Secretary.
+​
+
+Q29. Who is informed when unemployment allowance is sanctioned?
+A29. The applicant and the person or persons responsible for the liability leading to payment of unemployment allowance are informed of the order.
+​
+
+Funding and payment FAQs
+Q30. From where is unemployment allowance paid by the State Government?
+A30. It is paid from a separate amount earmarked by the State Government and placed with the State Cell in a separate account.
+​
+
+Q31. Who releases the unemployment allowance funds from the State level?
+A31. The Mahatma Gandhi National Rural Employment Guarantee Scheme State Mission releases funds to the concerned District Programme Co-ordinator on receiving claims from the Block Programme Officer.
+​
+
+Q32. What financial restrictions exist on paying unemployment allowance?
+A32. No cash payments are permitted, and unemployment allowance cannot be paid from Central or State funds meant for regular scheme implementation.
+​
+
+Q33. How does the District Programme Co-ordinator handle unemployment allowance funds?
+A33. The District Programme Co-ordinator maintains a separate account for unemployment allowance and releases funds to the scheme account at the Grama Panchayat.
+​
+
+Q34. How do workers actually receive unemployment allowance?
+A34. The Grama Panchayat credits the amount to the worker’s bank account through an electronic fund management system.
+​
+
+Rejection, appeals, recovery FAQs
+Q35. What happens if the Programme Officer rejects an unemployment allowance claim?
+A35. The Programme Officer must record reasons for rejection and intimate the decision in writing to the applicant.
+​
+
+Q36. How does an aggrieved person appeal against rejection of unemployment allowance?
+A36. The person may file a written appeal in Form No.3 to the District Programme Co-ordinator within thirty days of receiving the Programme Officer’s order.
+​
+
+Q37. How long does the District Programme Co-ordinator have to dispose of an appeal?
+A37. The District Programme Co-ordinator must dispose of the appeal within fifteen days after conducting a summary enquiry.
+​
+
+Q38. How are recoveries made if the appellate authority orders recovery?
+A38. The Grama Panchayat recovers the amount either in lump sum or in equal monthly installments from salary or wages, using revenue recovery processes as needed.
+​
+
+Forms and reporting FAQs
+Q39. What is Form No.2 used for?
+A39. Form No.2 is the acknowledgement receipt issued by the Grama Panchayat Secretary when a person applies for work under the scheme.
+​
+
+Q40. What is Form No.3 used for?
+A40. Form No.3 is used to file an appeal before the District Programme Co-ordinator against the Programme Officer’s order on unemployment allowance.
+​
+
+Q41. What monthly reporting is required from the Grama Panchayat Secretary?
+A41. The Secretary must submit a monthly statement in the prescribed Annexure register to the Programme Officer detailing unemployment allowance payments.
+​
+
+Q42. What information does the monthly unemployment allowance register contain?
+A42. It records worker name, period and number of days for which allowance was paid, rate, total amount, reasons for not providing work, and the Grama Panchayat Secretary’s signature.
+​
+
+Meta / legal-purpose FAQs
+Q43. Why were these unemployment allowance rules issued?
+A43. They were issued so that Kerala could make detailed rules to carry out provisions of MGNREGA related to unemployment allowance, after draft publication and consideration of objections and suggestions.
+​
+
+Q44. What does the explanatory note say about the notification’s purpose?
+A44. The explanatory note states that the notification is intended to issue rules for unemployment allowance under MGNREGA in Kerala after previous publication and consideration of feedback.
+Below is a FAQ-style raw dataset (question–answer pairs) built only from the Unemployment Allowance Scheme page content. You can directly use this as training data for a Q&A model.
+​
+
+FAQ for Unemployment Allowance Scheme (Kerala)
+Q1. What is the Unemployment Allowance Scheme?
+A1. The Unemployment Allowance Scheme is a scheme that provides a dole at the rate of Rs. 120 per month to unemployed persons registered with Employment Exchanges in Kerala.
+​
+
+Q2. When was the Unemployment Allowance Scheme introduced?
+A2. The Unemployment Allowance Scheme was introduced in 1982 by the Government of Kerala via G.O.(P) No.40/82/LBR dated 12/11/1982.
+​
+
+Q3. Which department initially implemented the Unemployment Allowance Scheme?
+A3. The scheme was initially implemented through the National Employment Service–Kerala up to 28/05/1998.
+​
+
+Q4. Who implements the Unemployment Allowance Scheme now?
+A4. After the Kerala Panchayath Raj and Municipalities Act, the scheme was transferred to Local Bodies and the unemployment dole is now distributed through Grama Panchayats, Municipalities and Corporations.
+​
+
+Q5. What is the monthly amount given under the Unemployment Allowance Scheme?
+A5. Eligible beneficiaries receive Rs. 120 per month as unemployment dole.
+​
+
+Q6. What are the basic age-related eligibility conditions for the scheme?
+A6. The applicant must have a registration seniority of three years after completing 18 years of age, and the upper age limit is 35 years.
+​
+
+Q7. What is the minimum educational qualification for general category applicants?
+A7. For general category candidates, the minimum educational qualification is SSLC pass.
+​
+
+Q8. What is the educational requirement for Scheduled Caste and Scheduled Tribe candidates?
+A8. Scheduled Caste and Scheduled Tribe candidates should have at least appeared for the SSLC examination after regular schooling.
+​
+
+Q9. What are the special eligibility conditions for physically handicapped candidates?
+A9. Physically handicapped candidates should have attended the SSLC examination after regular schooling and must have continuous registration seniority for two years after attaining 18 years of age.
+​
+
+Q10. What is the annual family income limit to apply for the Unemployment Allowance Scheme?
+A10. The annual family income of the applicant should not exceed Rs. 12,000.
+​
+
+Q11. Is there any limit on the personal monthly income of the applicant?
+A11. Yes, the personal monthly income of the applicant should not be above Rs. 100 per month.
+​
+
+Q12. Are students eligible to apply for the Unemployment Allowance Scheme?
+A12. No, students are not eligible to apply for the Unemployment Allowance Scheme.
+​
+
+Q13. Where should an eligible candidate submit the application under the scheme?
+A13. An eligible candidate should submit the application for unemployment allowance in the prescribed form to the concerned local body, such as the Grama Panchayat, Municipality or Corporation.
+​
+
+Q14. When can an eligible candidate submit the application?
+A14. As per the revised norms, an eligible candidate can submit the application at any time to the local body concerned.
+​
+
+Q15. Who verifies applications for the Unemployment Allowance Scheme?
+A15. Applications under the Unemployment Allowance Scheme are verified in the concerned Employment Exchanges.
+​
+
+Q16. Who sanctions or rejects applications in the local body?
+A16. The Welfare Standing Committee of the local body, after verification, may sanction or reject the application on merit.
+​
+
+Q17. From which month does an eligible candidate receive the unemployment allowance after sanction?
+A17. An eligible candidate can receive the unemployment allowance from the month following the application, once the local bodies are authorised to disburse the amount.
+​
+
+Q18. What can an applicant do if the application is rejected by the local body?
+A18. An applicant whose application is rejected can submit an appeal to the concerned District Collector within 60 days of receiving the rejection memo from the local body.
+​
+
+Q19. Who is the controlling authority of the Unemployment Allowance Scheme in Kerala?
+A19. The Director of Employment is the controlling authority of the Unemployment Allowance Scheme in the state.
+​
+
+Q20. How are funds for the scheme routed to the beneficiaries?
+A20. The Government grants funds to the Director of Employment, who distributes them to local bodies through District Employment Officers, and the local bodies disburse the installments of the dole to the beneficiaries.
+​
+
+Q21. Who inspects the accounts of local bodies related to the scheme?
+A21. District Employment Officers are entrusted with the inspection of the accounts of local bodies, and regular audits are conducted.
+​
+
+Q22. What is the official contact address of the Employment Directorate in Kerala?
+A22. The Employment Directorate is located at Sixth Floor, Thozhil Bhavan, Vikasbhavan P.O, Thiruvananthapuram 695 033, Kerala.
+​
+
+Q23. What are the main contact numbers for the Employment Directorate?
+A23. The general number is 0471-2301389, the Computer Cell number is 0471-2301249, and the fax number is 0471-2306246.
+​
+
+Q24. What is the official email address of the Employment Directorate?
+A24. The email address is

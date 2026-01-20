@@ -1,0 +1,143 @@
+Here is a ready-to-use Birth Certificate FAQ document (English), suitable for your LSGD / IKMS digital services page for Kerala.
+
+Birth Certificate – Frequently Asked Questions (FAQ)
+1. General information
+Q1. What is a birth certificate?
+A birth certificate is an official document recording a child’s birth, including name, date and place of birth, and parents’ details, issued under the Registration of Births and Deaths Act, 1969.
+​
+
+Q2. Who is the authority for birth registration in Kerala?
+In Kerala, Registrars of Births and Deaths in Grama Panchayats, Municipalities, and Municipal Corporations under the Local Self Government Department (LSGD) are responsible for registration and issuing certificates.
+​
+
+Q3. Is birth registration compulsory?
+Yes. Registration of every birth is mandatory under the Registration of Births and Deaths Act, 1969.
+​
+
+2. Place and time of registration
+Q4. Where should a birth be registered?
+A birth must be registered at the local body (Panchayat, Municipality, or Corporation) within whose jurisdiction the birth occurred, regardless of the parents’ permanent residence.
+​
+
+Q5. Within how many days should a birth be reported?
+A birth should be reported within 21 days of its occurrence to the concerned registration unit.
+​
+
+Q6. Can a birth be registered after 21 days?
+Yes. Late registration is permitted with different levels of approval and fees: up to 30 days at the registration unit, 30 days to 1 year with sanction from the District Birth and Death Registrar / Municipal Secretary, and after 1 year with permission of the Revenue Divisional Officer.
+​
+
+3. Who should report the birth?
+Q7. Who is responsible to report a hospital birth?
+For births in hospitals, nursing homes, or health institutions, the medical officer or institution in-charge is responsible for reporting the event to the local registrar.
+​
+
+Q8. Who should report a home birth?
+For home births, the parents, head of the household, or guardian must report the birth to the local registrar within the prescribed time.
+​
+
+Q9. Can parents apply directly if the hospital has not completed online registration?
+Yes. Parents can approach the concerned local body with hospital records and required documents to complete registration if it has not been done online by the institution.
+​
+
+4. Documents required
+Q10. What documents are required for a hospital birth?
+Typical documents include:
+
+Proof of birth from the hospital
+
+Parents’ identity proof (Aadhaar, passport, etc.)
+
+Address proof of parents
+
+Marriage certificate of parents, if available.
+​
+
+Q11. What documents are required for a home birth?
+Generally:
+
+Declaration or affidavit from parents/guardian
+
+Proof of residence
+
+Identity proof of parents
+
+Witness declaration, if demanded by the registrar.
+​
+
+Q12. Is Aadhaar of the child mandatory for a birth certificate?
+No. Aadhaar of the child is not mandatory for registration; parents’ identity documents are usually sufficient.
+​
+
+5. Online services (K-SMART / ILGMS / other portals)
+Q13. Can I apply and download a birth certificate online in Kerala?
+Yes. Kerala provides fully online services through LSGD portals like K-SMART and ILGMS, enabling application, tracking, and downloading digitally signed certificates without visiting the local body.
+​
+
+Q14. What details are required to search for a birth certificate online?
+Commonly required details are: district, local body type and name, year of birth, date of birth, sex, and mother’s name (often minimum first three letters in English).
+​
+
+Q15. What should I do if my record is not available online?
+If the birth details do not appear in online search, you must contact or visit the concerned Panchayat, Municipality, or Corporation with supporting documents to verify and update the records.
+​
+
+6. Name inclusion and changes
+Q16. How can I add my child’s name to the birth register?
+If the birth was registered without the child’s name, you can submit an application (online through K-SMART/ILGMS or at the local body) quoting registration details, date of birth, parents’ details, and the child’s name in English and Malayalam, along with a joint declaration from parents.
+​
+
+Q17. Is there any time limit for adding the child’s name?
+The child’s name can usually be added later by paying a small late fee; Kerala also permits name entry in older records within specified cut-off periods as notified by the state.
+​
+
+Q18. How can I correct spelling mistakes in the child’s or parents’ names?
+For minor spelling errors, an application with supporting documents such as school records, Aadhaar, passport, SSLC, marriage certificate, and hospital record must be submitted to the registrar, who will verify and update the entry.
+​
+
+Q19. Can I change address or other particulars in the birth certificate?
+Address and certain other particulars can be updated based on valid supporting documents like Aadhaar, ration card, or utility bills, following the local body’s correction procedure.
+​
+
+7. Fees and copies
+Q20. Is there a fee for birth registration?
+Registration within the normal period is either free or involves a nominal fee; additional certified copies and late registrations attract small government fees as per rules.
+​
+
+Q21. How can I get a duplicate or additional copy of my birth certificate?
+You can request additional copies online through the certificate search facility or apply at the local body, paying the prescribed copy fee per certificate.
+​
+
+Q22. Is the downloaded PDF with QR code legally valid?
+Digitally signed birth certificates downloaded from authorized LSGD portals, with QR code or verification features, are generally accepted as valid for official purposes.
+​
+
+8. Use and validity
+Q23. For what purposes is a birth certificate required?
+A birth certificate is commonly required for school admission, passport, voter ID, Aadhaar, driving licence, employment records, and as primary proof of date and place of birth.
+​
+
+Q24. Is a Kerala birth certificate valid outside the state or country?
+Yes. A birth certificate issued by a competent authority in Kerala is valid throughout India; for use abroad, attestation or apostille may be required as per the destination country’s rules.
+​
+
+9. Special cases
+Q25. How is the birth of a child born outside Kerala to Kerala-resident parents handled?
+The birth should be registered with the local authority where it occurred; for children born abroad, registration may be done at the Indian Mission/Consulate and those documents can serve as proof of birth for services in Kerala.
+​
+
+Q26. What if parents’ names have changed after the child’s birth registration?
+Parents must produce legal proof of name change (gazette notification, updated ID documents, etc.) along with an application so that the registrar can consider updating the parents’ names in the register, subject to rules.
+​
+
+Q27. What if there is a dispute or doubt about the birth details?
+In disputed or complex cases, the registrar may insist on additional documents, sworn affidavits, or court orders before altering or confirming entries in the birth register.
+​
+
+10. Support and grievance redressal
+Q28. Where can I get help with technical issues in online portals?
+For portal-related issues (login, payment, download errors), citizens can contact the helpdesk numbers or email support provided on the LSGD / K-SMART / ILGMS websites or approach Akshaya centres.
+​
+
+Q29. Whom should I contact for disputes or delays in registration?
+Complaints regarding delay or refusal in registration can be taken up with the local Registrar, District Birth and Death Registrar, or higher authorities in the Local Self Government Department.

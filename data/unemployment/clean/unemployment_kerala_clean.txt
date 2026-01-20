@@ -1,0 +1,197 @@
+## ELIGIBILITY
+
+Unemployment Allowance Scheme (UAS) - Basic Eligibility:
+- Must be registered in Employment Exchange in Kerala
+- Minimum registration seniority: 3 years after completing 18 years of age
+- Age limits: 18 years (lower) to 35 years (upper)
+- Annual family income must not exceed Rs. 12,000
+- Personal monthly income must not exceed Rs. 100 per month
+- Students are NOT eligible
+
+Educational Qualifications:
+- General category: SSLC pass required
+- SC/ST candidates: Must have at least appeared for SSLC examination after regular schooling
+- Physically handicapped: Must have attended SSLC examination after regular schooling, with continuous registration seniority of 2 years after attaining 18 years of age
+
+MGNREGA Unemployment Allowance Eligibility:
+- Must be registered under the Mahatma Gandhi National Rural Employment Guarantee Scheme
+- Must have applied for work and not been provided employment within prescribed time (15 days)
+- Must be able to produce dated receipt acknowledging the application for employment
+- Application must be registered at Grama Panchayat and entered in Management Information System (MIS)
+
+Disentitlement Conditions (MGNREGA):
+- Refusal of offered work
+- Not reporting for work when employment is provided
+- After receiving 100 days of employment in a financial year (household)
+- Circumstances specified in Section 9 of MGNREGA
+
+## REQUIRED_DOCUMENTS
+
+Documents for Unemployment Allowance Scheme (UAS):
+- Prescribed application form
+- Employment Exchange registration card/certificate
+- Proof of registration seniority (3 years after age 18)
+- Educational qualification certificate (SSLC or equivalent)
+- Income certificate (annual family income below Rs. 12,000)
+- Age proof
+- Address proof
+
+Documents for MGNREGA Unemployment Allowance:
+- Form No.1: Application for Unemployment Allowance
+- Form No.2: Copy of acknowledgement/receipt for employment application
+- Job Card with Job Card Number
+- Aadhaar Number
+- Bank account details (account number and bank name)
+- Details of days already worked during the year
+- Proof of wages received in bank account
+
+Information Required in Form No.1:
+- Name and Address
+- Job Card Number
+- Aadhaar Number
+- Bank name and account number
+- Number of days of job already received during the year
+- Amount received as unskilled wages
+- Date on which job was demanded
+- Number of days of job demanded
+- Whether advance date was requested (Yes/No)
+- Whether dated receipt for job demand is attached (Yes/No)
+
+## APPLICATION_PROCESS
+
+Unemployment Allowance Scheme (UAS) - Application Process:
+1. Submit application in prescribed form to concerned Local Body (Grama Panchayat / Municipality / Corporation)
+2. Application can be submitted at any time as per revised norms
+3. Applications are verified by concerned Employment Exchanges
+4. Welfare Standing Committee of Local Body examines and sanctions or rejects on merit
+5. Eligible candidate receives allowance from the month following sanction
+6. Disbursement subject to authorization and fund availability
+
+MGNREGA Unemployment Allowance - Application Process:
+1. First, apply for employment at Grama Panchayat (oral or written application)
+2. Obtain dated receipt (Form No.2) acknowledging employment application
+3. Wait for 15 days from date of employment application
+4. If employment not provided within 15 days, submit Form No.1 to Grama Panchayat Secretary on the next day after 15th day
+5. Attach copy of Form No.2 receipt with the application
+6. Grama Panchayat Secretary verifies claim by cross-checking:
+   - Job Card Register
+   - Employment Register
+   - Management Information System
+   - Muster Rolls
+7. If satisfied, Secretary forwards application with remarks to Programme Officer (Block level)
+8. Programme Officer appraises facts and issues orders
+9. Payment credited to worker's bank account through electronic fund management system
+
+Allowance Rates (MGNREGA):
+- First 30 days in financial year: 1/4 (one-fourth) of daily wage rate for unskilled workers
+- Remaining period of financial year: Not less than 1/2 (one-half) of daily wage rate for unskilled workers
+
+Benefit Amount (UAS):
+- Rs. 120 per month as unemployment dole
+
+## WHERE_TO_APPLY
+
+For Unemployment Allowance Scheme (UAS):
+- Grama Panchayat office (for rural areas)
+- Municipality office (for urban towns)
+- Corporation office (for cities)
+- Submit to Welfare Standing Committee of concerned Local Body
+
+For MGNREGA Unemployment Allowance:
+- Grama Panchayat Secretary (for employment application and unemployment allowance claim)
+- Programme Officer / Block Programme Officer (for processing and orders)
+- Block Panchayat office
+
+Employment Directorate Contact:
+- Address: Sixth Floor, Thozhil Bhavan, Vikasbhavan P.O, Thiruvananthapuram 695 033, Kerala
+- General Number: 0471-2301389
+- Computer Cell: 0471-2301249
+- Fax: 0471-2306246
+
+Fund Flow:
+- UAS: Government → Director of Employment → District Employment Officers → Local Bodies → Beneficiaries
+- MGNREGA: State Cell (separate account) → State Mission → District Programme Co-ordinator → Grama Panchayat MGNREGA account → Worker's bank account
+
+## SPECIAL_CASES
+
+Appeal Process (UAS):
+- If application rejected by Local Body, applicant can appeal to District Collector
+- Appeal must be submitted within 60 days of receiving rejection memo
+
+Appeal Process (MGNREGA):
+- If Programme Officer rejects unemployment allowance claim, reasons must be recorded and intimated in writing
+- Aggrieved person can file written appeal in Form No.3 to District Programme Co-ordinator
+- Appeal must be filed within 30 days of receiving Programme Officer's order
+- District Programme Co-ordinator must dispose of appeal within 15 days after summary enquiry
+
+Rejection of Claim:
+- Programme Officer can reject unemployment allowance only on grounds of force majeure
+- All other rejections must follow due process
+
+Recovery Process:
+- If appellate authority orders recovery, Grama Panchayat recovers amount
+- Recovery can be in lump sum or equal monthly installments
+- From salary (permanent employees) or wages (contract employees)
+- Revenue recovery process may be initiated if needed
+
+Payment Restrictions:
+- No cash payments permitted for MGNREGA unemployment allowance
+- Payment only through Direct Benefit Transfer to verified bank account
+- Cannot be paid from Central or State funds meant for regular MGNREGA implementation
+
+Physically Handicapped Persons:
+- Special eligibility: 2 years registration seniority (instead of 3 years)
+- Must have attended SSLC examination after regular schooling
+
+SC/ST Candidates:
+- Relaxed educational requirement: Only need to have appeared for SSLC (not necessarily passed)
+
+Cessation of Liability:
+- State Government's liability to pay unemployment allowance ceases after 100 days of employment provided to household in financial year
+- Also ceases in other circumstances as per Section 7(3) of MGNREGA
+
+## GOVERNMENT_RULES
+
+Unemployment Allowance Scheme (UAS) - Legal Framework:
+- Introduction: G.O.(P) No.40/82/LBR dated 12/11/1982
+- Transfer to Local Bodies: G.O.(P) No.23/98/LBR dated 28/05/1998
+- Controlling Authority: Director of Employment
+- Implementing Agencies: Grama Panchayats, Municipalities, Corporations
+
+MGNREGA Unemployment Allowance Rules, 2021:
+- Title: Kerala Mahatma Gandhi National Rural Employment Guarantee Scheme Unemployment Allowance Rules, 2021
+- Notification: G.O.(P) No.11/2021/LSGD, S.R.O. No.129/2021
+- Date of Notification: 05 February 2021
+- Came into force: Immediately from 05 February 2021
+- Issuing Authority: Government of Kerala, Local Self Government (DD) Department
+- Legal Basis: Section 32(1) of Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Central Act 42 of 2005)
+
+Key Definitions (MGNREGA Rules):
+- "Act": Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (Central Act 42 of 2005)
+- "Block": Community development area within a district comprising group of Grama Panchayats
+- "Central Rules": Rules framed by Government of India under MGNREGA
+- "District Programme Coordinator": District Collector designated for scheme implementation
+- "Panchayat Raj Act": Kerala Panchayat Raj Act, 1994 (Act 13 of 1994)
+- "Programme Officer": Officer not below rank of Block Panchayat Secretary, appointed as Block Programme Officer
+- "Joint Programme Co-ordinator": District level officer of Rural Development Department assisting District Programme Co-ordinator
+- "State Cell": NREGA Cell constituted under MGNREGA by Government of Kerala
+- "Wage rate for Unskilled Workers": Daily wage rate fixed by Central Government for unskilled workers under MGNREGA
+
+Social Security Pension Related Orders:
+- G.O.(MS) 408/2017/Fin dated 30/08/2017: Social Security Pension distribution via cooperative credit societies
+- G.O.(MS) 67/2017/Fin dated 06/02/2017: Universal Social Security Pension streamlining
+- G.O.(MS) 34/2017/Fin dated 21/01/2017: Eligibility conditions modification for Social Security Pensions
+- GO (Ms) No.282/2016/Fin: Enhancement of minimum pension and limiting entitlement
+- G.O.(P)No.1/97/SWD dated 01/01/1997: Social Security Pension rate enhancement
+
+Forms Used:
+- Form No.1: Application for Unemployment Allowance (sub-rule 1 of rule 4)
+- Form No.2: Acknowledgement receipt for employment application
+- Form No.3: Appeal form to District Programme Co-ordinator
+
+Monitoring and Reporting:
+- Director of Employment is controlling authority for UAS
+- District Employment Officers inspect Local Body accounts
+- Regular audits conducted
+- Grama Panchayat Secretary submits monthly statement in Annexure register to Programme Officer
+- Monthly register contains: worker name, period and days of allowance, rate, total amount, reasons for not providing work

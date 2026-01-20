@@ -9,9 +9,9 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 
 # Paths
-CHUNKS_FILE = os.path.join(project_root, "data/birth_certificate/chunks/birth_certificate_chunks.json")
-INDEX_FILE = os.path.join(project_root, "data/birth_certificate/faiss/birth_certificate.index")
-META_FILE = os.path.join(project_root, "data/birth_certificate/faiss/birth_certificate_metadata.json")
+CHUNKS_FILE = os.path.join(project_root, "data/unemployment/chunks/unemployment_chunks.json")
+INDEX_FILE = os.path.join(project_root, "data/unemployment/faiss/unemployment.index")
+META_FILE = os.path.join(project_root, "data/unemployment/faiss/unemployment_metadata.json")
 
 # Create faiss output directory if it doesn't exist
 os.makedirs(os.path.dirname(INDEX_FILE), exist_ok=True)

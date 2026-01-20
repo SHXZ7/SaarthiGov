@@ -1,7 +1,12 @@
 from fastapi import FastAPI
 from retrieval import retrieve_chunks
 from models import QueryRequest, AskRequest, AskResponse
-from llm import synthesize_answer
+from llm import (
+    synthesize_answer,
+    is_malayalam,
+    translate_ml_to_en,
+    translate_en_to_ml
+)
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
@@ -24,18 +29,37 @@ app.add_middleware(
 def ask(request: AskRequest):
     """
     Main endpoint: Retrieves relevant chunks and synthesizes a clear answer using LLM.
-    This is the recommended endpoint for end users.
+    Supports Malayalam queries with automatic translation.
     """
-    # Step 1: Retrieve relevant chunks
-    chunks = retrieve_chunks(request.query, request.top_k)
+    original_query = request.query
     
-    # Step 2: Synthesize answer using LLM
-    answer = synthesize_answer(request.query, chunks)
+    # Step 1: Detect language
+    malayalam = is_malayalam(original_query)
     
-    # Step 3: Return synthesized answer (optionally include sources)
+    # Step 2: Translate query if Malayalam
+    if malayalam:
+        query_for_rag = translate_ml_to_en(original_query)
+        print(f"Translated query: {query_for_rag}")
+    else:
+        query_for_rag = original_query
+    
+    # Step 3: Retrieve relevant chunks (using English query)
+    chunks = retrieve_chunks(query_for_rag, service=request.service, k=request.top_k)
+    
+    # Step 4: Synthesize answer using LLM (in English)
+    english_answer = synthesize_answer(query_for_rag, chunks)
+    
+    # Step 5: Translate answer back if original was Malayalam
+    if malayalam:
+        final_answer = translate_en_to_ml(english_answer)
+    else:
+        final_answer = english_answer
+    
+    # Step 6: Return response
     return AskResponse(
-        query=request.query,
-        answer=answer,
+        query=original_query,
+        answer=final_answer,
+        language="ml" if malayalam else "en",
         sources=chunks if request.include_sources else []
     )
 
@@ -46,8 +70,9 @@ def retrieve(request: QueryRequest):
     Raw retrieval endpoint: Returns chunks without LLM synthesis.
     Useful for debugging or when you want raw search results.
     """
-    results = retrieve_chunks(request.query, request.top_k)
+    results = retrieve_chunks(request.query, service=request.service, k=request.top_k)
     return {
         "query": request.query,
+        "service": request.service,
         "results": results
     }

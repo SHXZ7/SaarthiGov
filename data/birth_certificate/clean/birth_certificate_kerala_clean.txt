@@ -1,0 +1,211 @@
+## ELIGIBILITY
+
+Who can apply for birth certificate:
+- Parent (mother or father)
+- Guardian (if parents unavailable or deceased)
+- Authorized person from hospital/institution (for institutional births)
+- Head of household or nearest relative (for home births)
+
+Who can register the birth event:
+- For home/domiciliary births: Head of house or nearest relative present at birth
+- For institutional births: Medical officer or person in charge of hospital, health centre, maternity home, or nursing home
+
+Jurisdiction and local body:
+- Gram Panchayat (rural areas) - 941 Gram Panchayats in Kerala
+- Municipality (smaller urban towns) - 87 Municipalities in Kerala
+- Municipal Corporation (cities) - 6 Municipal Corporations in Kerala
+- Kannur Cantonment Board (if birth occurred within that jurisdiction)
+- Registration must be done at the local body where the birth occurred, not based on permanent address
+- Registrar of Births and Deaths of the local body is the responsible authority
+- Registration handled under Registration of Births and Deaths Act 1969 and Kerala Birth and Death Registration Rules 1999
+
+## REGISTRATION_TIMELINES
+
+Normal registration period:
+- Birth must be reported within 21 days from date of birth
+- Registration is free or involves nominal fee
+
+Late registration (22 to 30 days):
+- Allowed with payment of late fee (Rs. 2 as per Kerala rules)
+- No special written permission needed
+- Registration done at the same registration unit
+
+Late registration (31 days to 1 year):
+- Requires written permission from prescribed authority
+- For Gram Panchayats: District Birth and Death Registrar can sanction registration
+- For Municipalities/Corporations: Municipal Secretary can sanction registration
+- Late fee: Rs. 5 as per Kerala rules
+- Affidavit by parents or informant explaining delay is required
+
+Very late registration (after 1 year):
+- Requires permission of Revenue Divisional Officer (RDO)
+- Late fee: Rs. 10 as per Kerala rules
+- Supporting documents required: school records, hospital records, other proofs, affidavits
+- Order copy from RDO must be submitted
+
+## REQUIRED_DOCUMENTS
+
+Documents for hospital/institutional birth:
+- Proof of birth from hospital (discharge summary or birth report on hospital letterhead)
+- Hospital birth report in prescribed format (Form 1 - Birth Report with legal and statistical parts)
+- ID proof of parents (Aadhaar, Voter ID, Passport, etc.)
+- Address proof of parents (Ration card, utility bill, Aadhaar address, etc.)
+- Parents' birth certificates (if available, often requested but not strictly mandatory)
+- Parents' marriage certificate (if available)
+- Required details: place of birth, date and time, sex of child, name of child (can be added later), names of father and mother
+
+Documents for home birth:
+- Domiciliary birth report filled by head of household or nearest relative
+- Certificate or letter from doctor, nurse, trained midwife, ASHA, or traditional birth attendant confirming home delivery (if attended)
+- Proof of residence within local body (address proof)
+- ID proofs of parents
+- Medical record if mother/child taken to hospital after delivery (optional but useful)
+- Declaration or affidavit from parents/guardian
+- Witness declaration if demanded by registrar
+
+Documents for late registration (general):
+- Standard birth registration form (Form 1) with complete details
+- Proof of birth: hospital discharge summary OR doctor's certificate OR vaccination card OR school admission record (for older child) OR religious ceremony record with date of birth
+- ID proof of applicant/parents
+- Address proof of parents at time of birth (if available) and current address
+- Affidavit explaining reason for delay (mandatory after 30 days; format per local body/SDM)
+- Permission letter from Registrar (for 31 days to 1 year delay)
+- Court/magistrate order or RDO permission (for after 1 year delay)
+
+Note: Aadhaar of the child is NOT mandatory for birth registration; parents' identity documents are sufficient.
+
+## ONLINE_APPLICATION_PROCESS
+
+Portal information:
+- Urban local bodies (Municipalities/Corporations): K-SMART application
+- Gram Panchayats: ILGMS (Integrated Local Government Management System)
+- Civil Registration System (CRS) integrated with Kerala Sevana portal
+
+Online registration steps:
+1. Visit the appropriate portal (K-SMART for urban, ILGMS for Panchayats, or Sevana portal)
+2. Navigate to 'Registration of Births & Deaths' module
+3. Choose 'New Registration' or 'Citizen services' depending on flow (institution vs citizen)
+4. Fill online birth registration details:
+   - Child's name (optional, can be added later)
+   - Date of birth
+   - Time of birth
+   - Sex of child
+   - Place of birth (hospital/home)
+   - Parents' details
+   - Address
+5. Upload or link hospital generated birth report, or provide hospital ID where hospital has pre-registered event
+6. Submit form - system routes to local Registrar of Births & Deaths of relevant Panchayat/Municipality/Corporation
+7. After approval, certificate available for download
+
+Downloading birth certificate online:
+- K-SMART Citizen Portal: For Municipalities/Corporations
+- ILGMS Citizen Portal: For Gram Panchayats
+- Use 'Certificate Search' feature with:
+  - District
+  - Local body type
+  - Local body name
+  - Year of birth
+  - Date of birth
+  - Sex
+  - Mother's name (minimum first 3 letters in English)
+- Digitally signed certificates with QR code are legally valid for official purposes
+
+Mode of online submission:
+- Mobile phones
+- Akshaya Kendras
+- Direct submission at front office of local self-government body (even for online processing)
+
+## OFFLINE_APPLICATION_PROCESS
+
+Where to apply:
+- Secretary/Registrar of Births & Deaths at:
+  - Gram Panchayat office (for rural areas)
+  - Municipality office (for towns)
+  - Municipal Corporation office (for cities)
+  - Kannur Cantonment Board (if applicable)
+- Jurisdiction is based on place of occurrence of birth, not permanent address
+
+Offline registration steps:
+1. Visit local Registrar of Births & Deaths in Gram Panchayat, Municipality, or Corporation where birth occurred
+2. Collect or download physical Birth Report form (Form 1)
+3. Fill legal part: date of birth, sex, child name, parents' names, place of birth
+4. Fill statistical part: mother's residence, religion, education of parents, etc.
+5. Attach required documents (hospital certificate, supporting proof, ID, address, etc.)
+6. Submit to Registrar
+7. Pay applicable fee (normal registration usually free, late fees as per delay rules)
+8. Registrar records entry in Birth Register (Form 7) and assigns registration number and date
+9. Birth certificate extract issued in Form 5
+10. Certificate can be collected in person or sent by post
+
+For institutional births:
+- Hospital usually reports to local Registrar through online system
+- Parents may submit details at hospital help-desk/PRO for electronic registration
+- Parents can collect extract from hospital liaison if integrated with local body
+- Parents can later visit local body or use Sevana portal using hospital registration number
+
+## SPECIAL_CASES
+
+Home birth registration:
+- Event category: domiciliary/home birth
+- Informant: head of household or nearest relative present
+- Place of birth field: 'House' with full address
+- May require confirmation from local health worker, ASHA, Anganwadi, or village officer for verification
+- Must follow same timelines (21 days, late, very late) as institutional births
+
+Adoption cases:
+- Adopted child's birth must already be registered at place of occurrence
+- Adoption does not change original birth entry
+- For new certificate in adoptive name:
+  - Obtain court adoption order or CARA recognized adoption deed
+  - Apply to local Registrar with adoption order
+  - Request change of child's name and/or parents' names as per legal direction
+  - Registrar acts based on court directions
+  - May issue new certificate without disclosing adoption status in routine extracts
+
+Name addition or correction:
+- Birth can be initially registered without child's name
+- Name can be added within 12 months from date of registration without court order by parent/guardian
+- Registrar updates register and certificate
+- After 12 months: name entry/change allowed with late fee (Rs. 5) and supporting declaration as per Section 14 and state rules
+- For entries where 15 years have elapsed since name entry: name can be entered up to 13-07-2026 as per current rule
+- For spelling mistakes/clerical errors: Registrar can correct on enquiry and record correction in register; informant receives intimation
+- For minor spelling errors: submit application with supporting documents (school records, Aadhaar, passport, SSLC, marriage certificate, hospital record)
+
+Date or major detail correction:
+- If entry is erroneous in substance (wrong date of birth, wrong parents' name):
+  - Informant must produce declaration by two credible persons who know the facts
+  - Registrar may correct entry as per Section 15 after verifying declaration and evidence
+- For entries before 1970: corrections require permission of Chief Registrar
+- Fraudulently or improperly made entries are reported to higher authority; action taken under Section 25
+
+Duplicate certificate:
+- If original certificate copy is lost, citizen can apply for additional certified extract under Section 17
+- Application requirements:
+  - Name
+  - Date of birth
+  - Place of birth
+  - Parents' names
+  - Approximate year
+  - ID proof
+- Registrar conducts search in Birth Register (search fee typically Rs. 2 per year + certificate fee Rs. 5 as per Kerala rules)
+- If entry found: Registrar issues another certified extract (Birth Certificate - Form 5); can be collected in person or by post
+- If entry not found: Registrar issues Non-Availability Certificate (Form 10)
+- Online: download additional copies from K-SMART (Municipalities/Corporations) or ILGMS (Gram Panchayats) using Certificate Search
+
+Birth outside Kerala:
+- Birth should be registered with local authority where it occurred
+- For children born abroad: registration done at Indian Mission/Consulate
+- Those documents serve as proof of birth for services in Kerala
+
+Parents' name change after registration:
+- Parents must produce legal proof of name change (gazette notification, updated ID documents)
+- Submit application to registrar for updating parents' names in register
+- Subject to applicable rules
+
+Disputed or complex cases:
+- Registrar may insist on additional documents, sworn affidavits, or court orders
+- Required before altering or confirming entries in birth register
+
+Support and grievance redressal:
+- For portal-related issues (login, payment, download errors): contact helpdesk numbers or email support on LSGD/K-SMART/ILGMS websites, or approach Akshaya centres
+- For disputes or delays in registration: contact local Registrar, District Birth and Death Registrar, or higher authorities in Local Self Government Department

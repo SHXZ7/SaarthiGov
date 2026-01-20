@@ -1,0 +1,233 @@
+Here is concise, Kerala-specific raw data you can directly structure as a dataset for training.
+​
+
+A. Eligibility
+who_can_apply:
+
+"parent (mother or father)"
+
+"guardian (if parents unavailable or deceased)"
+
+"authorized person from hospital/institution (for institutional births)"
+
+"head of household/nearest relative (for home births)"
+​
+
+who_can_register_event_information:
+
+"for domiciliary/home births: head of house or nearest relative present"
+
+"for institutional births: medical officer / person in charge of hospital, health centre, maternity home, nursing home"
+​
+
+jurisdiction_local_body:
+
+"Gram Panchayat (rural areas)"
+
+"Municipality (smaller urban towns)"
+
+"Municipal Corporation (cities)"
+
+"Registrar of Births & Deaths of the local body where birth occurred"
+
+"registration unit is tied to local self government institution area"
+​
+
+B. Registration Timelines
+normal_registration_period:
+
+"information must be given within 21 days from date of birth"
+​
+
+late_registration_22_to_30_days:
+
+"allowed with payment of late fee: ₹2 (Kerala rules)"
+
+"no special written permission needed within 30 days; treated as delayed within prescribed extension"
+​
+
+late_registration_31_days_to_1_year:
+
+"requires written permission of prescribed local authority (e.g., Registrar / higher officer)"
+
+"late fee: ₹5 (Kerala rules)"
+
+"affidavit by parents or informant explaining delay"
+​
+
+very_late_registration_after_1_year:
+
+"requires order of First Class Magistrate / SDM (magistrate of first class or presidency magistrate)"
+
+"late fee: ₹10 (Kerala rules)"
+
+"supporting documents: school records, hospital records, other proofs, affidavits"
+​
+
+C. Documents Required
+documents_hospital_birth:
+
+"proof of birth from hospital (discharge summary / birth report on hospital letterhead)"
+
+"hospital birth report in prescribed format (Form 1 – Birth Report legal + statistical part)"
+
+"ID proof of parents (Aadhaar / voter ID / passport etc.)"
+
+"address proof of parents (ration card / utility bill / Aadhaar address etc.)"
+
+"parents’ birth certificates (if available, often requested but not strictly mandatory in all cases)"
+
+"parents’ marriage certificate (if available)"
+
+"details required: place of birth, date and time, sex of child, name of child (or option to add later), names of father and mother"
+​
+
+documents_home_birth:
+
+"domiciliary birth report filled by head of household / nearest relative"
+
+"certificate / letter from doctor / nurse / trained midwife / ASHA / traditional birth attendant confirming home delivery (if attended)"
+
+"proof of residence within local body (address proof)"
+
+"ID proofs of parents"
+
+"any medical record if mother/child taken to hospital after delivery (optional but useful)"
+​
+
+documents_late_registration_general:
+
+"standard birth registration form (Form 1) with complete details"
+
+"proof of birth: hospital discharge summary OR doctor’s certificate OR vaccination card OR school admission record (for older child) OR religious ceremony record where date of birth is mentioned"
+
+"ID proof of applicant/parents"
+
+"address proof of parents at time of birth (if available) and current address"
+
+"affidavit explaining reason for delay (mandatory after 30 days; format per local body/SDM)"
+
+"permission letter from Registrar (31 days–1 year)"
+
+"court/magistrate order (after 1 year)"
+​
+
+D. Application Process
+online_process_CRS_Sevana:
+
+"portal: Civil Registration System (CRS) integrated with Kerala Sevana (https://cr.lsgkerala.gov.in style endpoints; exact URL via Sevana)"
+
+"step 1: user visits Sevana – 'Registration of Births & Deaths' module"
+
+"step 2: choose 'New Registration' or 'Citizen services' depending on flow (institution vs citizen)"
+
+"step 3: fill online birth registration details: child’s name (optional), date of birth, time of birth, sex, place (hospital/home), parents’ details, address"
+
+"step 4: upload / link hospital generated birth report or provide hospital ID where hospital has pre-registered event"
+
+"step 5: submit form; system routes to local Registrar of Births & Deaths of relevant Panchayat/Municipality/Corporation"
+
+"step 6: after approval, certificate available for download via 'Certificate Search' using district, local body type, local body, year of birth, and child/parents details"
+​
+
+offline_process_local_body:
+
+"applicant visits local Registrar of Births & Deaths in Gram Panchayat / Municipality / Corporation where birth occurred"
+
+"collect or download physical Birth Report form (Form 1)"
+
+"fill legal part (date of birth, sex, child name, parents’ names, place of birth) and statistical part (mother’s residence, religion, education of parents, etc.)"
+
+"attach required documents (hospital certificate / supporting proof, ID, address, etc.)"
+
+"submit to Registrar; pay applicable fee (normal registration usually free, late fees as per delay rules)"
+
+"Registrar records entry in Birth Register (Form 7) and assigns registration number and date"
+
+"extract (birth certificate) issued in Form 5; can be collected in person or sent by post"
+​
+
+E. Where to Apply
+where_to_apply_local_self_government:
+
+"Secretary/Registrar of Births & Deaths of:
+
+Gram Panchayat for rural areas
+
+Municipality for towns
+
+Municipal Corporation for cities"
+
+"jurisdiction is based on place of occurrence of birth, not permanent address"
+​
+
+where_to_apply_hospitals_institutional_births:
+
+"for institutional births, initial reporting often done by hospital to local Registrar"
+
+"parents may:
+
+submit details at hospital help-desk / PRO for electronic registration, OR
+
+collect extract from hospital liaison if integrated with local body, OR
+
+later visit local body/Sevana portal using hospital registration number"
+​
+
+F. Special Cases
+special_case_home_birth:
+
+"event category: domiciliary/home birth"
+
+"informant: head of household / nearest relative present"
+
+"place of birth field: 'House' with full address"
+
+"may require confirmation from local health worker / ASHA / Anganwadi / village officer for verification"
+​
+
+special_case_adoption:
+
+"adopted child’s birth must already be registered at place of occurrence; adoption does not change original birth entry"
+
+"for new certificate in adoptive name, process generally involves:
+
+court adoption order or CARA recognized adoption deed
+
+application to local Registrar with adoption order seeking change of child’s name and/or parents’ names as per legal direction
+
+Registrar acts based on court directions; may issue new certificate without disclosing adoption status in routine extracts"
+​
+
+special_case_name_correction_or_addition:
+
+"birth can be initially registered without child’s name"
+
+"parent/guardian can provide name within 12 months from date of registration without court order; Registrar updates register and certificate"
+
+"after 12 months, name entry/change allowed with late fee and supporting declaration as per section 14 and state rules"
+
+"for spelling mistakes/clerical errors in name: Registrar can correct clerical/formal errors on enquiry and record correction in register; informant receives intimation"
+​
+
+special_case_date_or_major_detail_correction:
+
+"if entry is erroneous in substance (e.g., wrong date of birth, wrong parents name), informant must produce declaration by two credible persons who know facts"
+
+"Registrar may correct entry as per section 15 after verifying declaration and evidence"
+
+"fraudulently or improperly made entries are reported to higher authority; action taken under section 25"
+​
+
+special_case_duplicate_certificate:
+
+"if original certificate copy is lost, citizen can apply for additional certified extract under section 17"
+
+"applicant provides: name, date of birth, place of birth, parents’ names, approximate year, and ID proof"
+
+"Registrar conducts search in Birth Register (search fee per year, typically around ₹2 per year + certificate fee ₹5 as per Kerala rules; actual tariffs may be revised)"
+
+"if entry found, Registrar issues another certified extract (Birth Certificate – Form 5); can be collected in person or by post"
+
+"if entry not found, Registrar issues Non-Availability Certificate (Form 10)"
+​
