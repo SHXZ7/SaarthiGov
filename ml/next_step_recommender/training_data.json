@@ -1,0 +1,66 @@
+[
+  {
+    "service": "ration_card",
+    "current_intent": "documents",
+    "next_intents": ["eligibility", "process"]
+  },
+  {
+    "service": "ration_card",
+    "current_intent": "eligibility",
+    "next_intents": ["documents", "process"]
+  },
+  {
+    "service": "ration_card",
+    "current_intent": "process",
+    "next_intents": ["timeline", "fees"]
+  },
+  {
+  "service": "ration_card",
+  "current_intent": "timeline",
+  "next_intents": ["fees", "correction"]
+  },
+  {
+  "service": "ration_card",
+  "current_intent": "correction",
+  "next_intents": ["documents", "process"]
+   },
+  {
+    "service": "birth_certificate",
+    "current_intent": "process",
+    "next_intents": ["documents", "timeline"]
+  },
+  {
+    "service": "birth_certificate",
+    "current_intent": "documents",
+    "next_intents": ["process"]
+  },
+  {
+  "service": "birth_certificate",
+  "current_intent": "timeline",
+  "next_intents": ["documents", "correction"]
+}
+,
+{
+  "service": "birth_certificate",
+  "current_intent": "correction",
+  "next_intents": ["documents", "process"]
+}
+,
+{
+  "service": "unemployment",
+  "current_intent": "documents",
+  "next_intents": ["process"]
+}
+,
+{
+  "service": "unemployment",
+  "current_intent": "documents",
+  "next_intents": ["process"]
+}
+,
+  {
+    "service": "unemployment",
+    "current_intent": "eligibility",
+    "next_intents": ["documents", "process"]
+  }
+]

@@ -6,13 +6,17 @@ class QueryRequest(BaseModel):
     top_k: int = 3
     service: Optional[str] = None  # 'ration_card', 'birth_certificate', or None for all
 
+class ChatMessage(BaseModel):
+    role: str  # "user" or "assistant"
+    content: str
 
 class AskRequest(BaseModel):
-    """Request model for the /ask endpoint with LLM synthesis"""
     query: str
-    top_k: int = 5  # Retrieve more chunks for better context
-    include_sources: bool = False  # Whether to include source chunks in response
-    service: Optional[str] = None  # 'ration_card', 'birth_certificate', or None for all
+    top_k: int = 3
+    include_sources: bool = False
+    service: Optional[str] = None
+    history: List[ChatMessage] = []  
+    next_steps: List[str] = [] 
 
 
 class ChunkResponse(BaseModel):
@@ -24,8 +28,9 @@ class ChunkResponse(BaseModel):
 
 
 class AskResponse(BaseModel):
-    """Response model for the /ask endpoint"""
     query: str
-    answer: str  # The synthesized answer from LLM
-    language: str = "en"  # 'en' for English, 'ml' for Malayalam
-    sources: List[ChunkResponse] = []  # Optional: source chunks used
+    answer: str
+    language: str = "en"
+    sources: List[ChunkResponse] = []
+    service: Optional[str] = None
+    next_steps: List[str] = []   # ✅ REQUIRED

@@ -3,6 +3,7 @@ import httpx
 import time
 from typing import List, Dict
 from dotenv import load_dotenv
+from matplotlib.style import context
 
 # Load environment variables from .env file
 load_dotenv()
@@ -20,12 +21,26 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 # Free models to try (in order of preference)
 # High-quality free models from https://openrouter.ai/models
 FREE_MODELS = [
-    "xiaomi/mimo-v2-flash:free",        # Best - 309B MoE, top performance
-    "mistralai/devstral-2-2512:free",   # 123B, great for code/agents
-    "tngtech/deepseek-r1t2-chimera:free", # 671B MoE, strong reasoning
-    "tngtech/deepseek-r1t-chimera:free",  # R1+V3 merge
-    "zhipu-ai/glm-4.5-air:free",        # GLM 4.5 Air
+    "mistralai/mistral-7b-instruct",
+    "mistralai/mixtral-8x7b-instruct",
+
+    # LLaMA-based strong general models
+    "meta-llama/llama-3-8b-instruct",
+    "meta-llama/llama-2-13b-chat",
+
+    # Good for longer reasoning / explanations
+    "huggingfaceh4/zephyr-7b-beta",
+    "togethercomputer/redpajama-incite-chat-3b",
+
+    # Code + reasoning friendly
+    "deepseek-ai/deepseek-coder-6.7b-instruct",
+    "codellama/codellama-7b-instruct",
+
+    # Lightweight / fast (lower cost, quick replies)
+    "google/gemma-7b-it",
+    "tiiuae/falcon-7b-instruct",
 ]
+
 
 
 SYSTEM_PROMPT = """You are a helpful Kerala Government Services Assistant. Your job is to answer questions about government services based ONLY on the provided context.
@@ -90,7 +105,19 @@ Provide a brief, clear answer with bullet points for key information found in co
 "I don't have enough information about [topic] in my current knowledge base. Please try rephrasing your question or ask about a specific aspect like eligibility, documents required, or application process.\""""
 
 
-def synthesize_answer(query: str, chunks: List[Dict]) -> str:
+def synthesize_answer(
+    query: str,
+    chunks: List[Dict],
+    history: list = None
+) -> str:
+    
+    history_text = ""
+    if history:
+        history_text = "\n".join(
+        f"{m.role}: {m.content}" for m in history[-4:]
+    )
+
+
     """
     Takes retrieved chunks and synthesizes a coherent answer using LLM via OpenRouter.
     
@@ -104,6 +131,13 @@ def synthesize_answer(query: str, chunks: List[Dict]) -> str:
     if not chunks:
         return "I couldn't find any relevant information for your question. Please try rephrasing or ask about a different government service."
     
+    # 🔒 HARD STOP: documents-only questions
+    if "document" in query.lower():
+        chunks = [
+            c for c in chunks
+            if "document" in c["section"].lower()
+        ] or chunks[:1]
+        
     # Format chunks into context string
     context_parts = []
     for i, chunk in enumerate(chunks, 1):
@@ -115,11 +149,15 @@ def synthesize_answer(query: str, chunks: List[Dict]) -> str:
     
     # Build the user message with context
     user_message = f"""CONTEXT CHUNKS:
-{context}
+        {context}
 
-USER QUESTION: {query}
+        CONVERSATION CONTEXT (for reference only):
+        {history_text}
 
-Provide a clear, helpful answer based on the context above:"""
+        USER QUESTION:
+        {query}
+
+    Provide a clear, helpful answer based ONLY on the context above:"""
 
     try:
         # Try multiple free models with retry logic
@@ -142,7 +180,7 @@ Provide a clear, helpful answer based on the context above:"""
                             {"role": "user", "content": user_message}
                         ],
                         "temperature": 0.3,
-                        "max_tokens": 512
+                        "max_tokens": 350
                     },
                     timeout=60.0
                 )
@@ -175,17 +213,24 @@ Provide a clear, helpful answer based on the context above:"""
 
 def fallback_response(query: str, chunks: List[Dict]) -> str:
     """
-    Fallback response when LLM is unavailable.
-    Returns formatted chunks directly.
+    Intent-aware fallback response when LLM is unavailable.
+    Returns ONLY the most relevant chunk instead of dumping everything.
     """
-    lines = [f"Here's what I found about your question:\n"]
-    
-    for chunk in chunks:
-        lines.append(f"**{chunk['section']}** ({chunk['service']})")
-        lines.append(chunk['text'])
-        lines.append("")
-    
-    return "\n".join(lines)
+
+    if not chunks:
+        return (
+            "I don't have enough information to answer this question. "
+            "Please try asking about a specific aspect like documents, "
+            "eligibility, or application process."
+        )
+
+    # Pick the highest-ranked chunk (already sorted by score)
+    top_chunk = chunks[0]
+
+    return (
+        f"**{top_chunk['section']}**\n"
+        f"{top_chunk['text']}"
+    )
 
 
 # --- Reusable LLM Call Function ---
@@ -266,3 +311,35 @@ Text:
     except Exception as e:
         print(f"Translation EN->ML failed: {e}")
         return text  # Return original if translation fails
+
+def rewrite_query(user_query: str, history: list) -> str:
+    """
+    Rewrite a follow-up question into a standalone question using chat history.
+    """
+    if not history:
+        return user_query
+
+    recent = history[-4:]  # limit context
+    history_text = "\n".join(
+        f"{m.role}: {m.content}" for m in recent
+    )
+
+    prompt = f"""
+You are a query rewriter for a Kerala government services assistant.
+
+Conversation so far:
+{history_text}
+
+User's new question:
+{user_query}
+
+Rewrite the user's question into a standalone question.
+Do NOT answer.
+Do NOT add new information.
+"""
+
+    try:
+        rewritten = call_llm(prompt, max_tokens=128)
+        return rewritten.strip()
+    except Exception:
+        return user_query

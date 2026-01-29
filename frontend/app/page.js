@@ -8,38 +8,60 @@ export default function Home() {
   const [answer, setAnswer] = useState("");
   const [sources, setSources] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [messages, setMessages] = useState([]);
 
-  const handleSearch = async () => {
-    if (!query.trim()) return;
+  const sendMessage = async () => {
+  if (!query.trim()) return;
 
-    setLoading(true);
-    setAnswer("");
-    setSources([]);
-
-    try {
-      const res = await fetch("http://127.0.0.1:8000/ask", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          query: query,
-          top_k: 5,
-          include_sources: true,
-          service: service || null,
-        }),
-      });
-
-      const data = await res.json();
-      setAnswer(data.answer || "");
-      setSources(data.sources || []);
-    } catch (err) {
-      console.error("Error fetching results:", err);
-      setAnswer("Error connecting to the server. Please try again.");
-    } finally {
-      setLoading(false);
-    }
+  const userMsg = {
+    role: "user",
+    content: query,
   };
+
+  // show user message immediately
+  setMessages((prev) => [...prev, userMsg]);
+  setLoading(true);
+
+  try {
+    const res = await fetch("http://127.0.0.1:8000/ask", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        query: query,
+        top_k: 5,
+        include_sources: true,
+        service: service ? service : null,
+        history: [...messages, userMsg], // 🔑 conversational memory
+      }),
+    });
+
+    const data = await res.json();
+
+    const botMsg = {
+      role: "assistant",
+      content: data.answer || "No answer generated.",
+      sources: data.sources || [],
+      next_steps: data.next_steps || [], // ✅ ADD THIS
+    };
+
+    setMessages((prev) => [...prev, botMsg]);
+  } catch (err) {
+    console.error(err);
+    setMessages((prev) => [
+      ...prev,
+      {
+        role: "assistant",
+        content: "Error connecting to server.",
+      },
+    ]);
+  } finally {
+    setLoading(false);
+    setQuery("");
+  }
+};
+
 
   return (
     <main className="min-h-screen bg-gray-50 p-8">
@@ -58,7 +80,7 @@ export default function Home() {
             onChange={(e) => setService(e.target.value)}
             className="border border-gray-300 rounded px-3 py-2 bg-white text-gray-700"
           >
-            <option value="">All Services</option>
+            <option value="">Auto-Detect</option>
             <option value="ration_card">Ration Card</option>
             <option value="birth_certificate">Birth Certificate</option>
             <option value="unemployment_allowance">Unemployment Allowance</option>
@@ -70,12 +92,12 @@ export default function Home() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+            onKeyDown={(e) => e.key === "Enter" && sendMessage()}
             placeholder="e.g. How to apply for birth certificate online?"
             className="flex-1 border border-gray-300 rounded px-3 py-2"
           />
           <button
-            onClick={handleSearch}
+            onClick={sendMessage}
             disabled={loading}
             className="bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50"
           >
@@ -85,25 +107,56 @@ export default function Home() {
 
         {loading && <p className="text-gray-500">Thinking…</p>}
 
-        {answer && (
-          <div className="mb-6">
-            <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-              <div className="flex items-center justify-between mb-3">
-                <h2 className="font-semibold text-lg text-gray-800">Answer</h2>
-                {service && (
-                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">
-                    {service === "ration_card" ? "Ration Card" : 
-                     service === "birth_certificate" ? "Birth Certificate" : 
-                     "Unemployment Allowance"}
-                  </span>
-                )}
-              </div>
-              <div className="prose prose-sm text-gray-700 whitespace-pre-wrap">
-                {answer}
-              </div>
-            </div>
-          </div>
-        )}
+<div className="space-y-4 mb-6">
+  {messages.map((msg, idx) => (
+    <div
+      key={idx}
+      className={`p-4 rounded-lg ${
+        msg.role === "user"
+          ? "bg-blue-600 text-white ml-auto max-w-[80%]"
+          : "bg-white border text-gray-800 max-w-[80%]"
+      }`}
+    >
+      <div className="whitespace-pre-wrap text-sm">
+        {msg.content}
+        {/* Next-step recommendations (only for assistant messages) */}
+{msg.role === "assistant" && msg.next_steps?.length > 0 && (
+  <div className="mt-3 text-sm">
+    <p className="font-semibold text-gray-700">
+      Recommended next steps
+    </p>
+    <ul className="list-disc ml-5 text-gray-600">
+      {msg.next_steps.map((step, i) => (
+        <li key={i}>
+          {step.replace("_", " ")}
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+
+      </div>
+
+      {/* Sources (only for assistant messages) */}
+      {msg.role === "assistant" && msg.sources?.length > 0 && (
+        <div className="mt-3">
+          <p className="text-xs text-gray-500 mb-1">Sources</p>
+          {msg.sources.map((s, i) => (
+            <details key={i} className="text-xs text-gray-600 mb-1">
+              <summary className="cursor-pointer">
+                {s.section} — score {s.score.toFixed(3)}
+              </summary>
+              <pre className="whitespace-pre-wrap mt-1">
+                {s.text}
+              </pre>
+            </details>
+          ))}
+        </div>
+      )}
+    </div>
+  ))}
+</div>
+
 
         {sources.length > 0 && (
           <div className="mt-6">

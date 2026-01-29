@@ -47,47 +47,48 @@ def get_available_services():
 
 def retrieve_chunks(query: str, service: str = None, k: int = 3):
     """
-    Retrieve relevant chunks for a query.
-    
-    Args:
-        query: The user's question
-        service: Service name ('ration_card', 'birth_certificate', or None for all)
-        k: Number of results per index
-    
-    Returns:
-        List of relevant chunks with scores
+    Retrieve relevant chunks for a query with STRICT service isolation.
     """
+
     query_embedding = model.encode([query], convert_to_numpy=True)
     faiss.normalize_L2(query_embedding)
 
     results = []
-    
-    # Determine which services to search
-    if service and service in indices:
-        services_to_search = [service]
-    elif service and service not in indices:
-        raise ValueError(f"Service '{service}' not found. Available: {get_available_services()}")
-    else:
-        # Search all available services
-        services_to_search = list(indices.keys())
-    
-    for svc in services_to_search:
-        index = indices[svc]
-        metadata = metadata_store[svc]
-        
-        scores, idxs = index.search(query_embedding, k)
-        
-        for idx, score in zip(idxs[0], scores[0]):
-            if idx < len(metadata):  # Safety check
-                chunk = metadata[idx]
-                results.append({
-                    "service": chunk["service"],
-                    "state": chunk["state"],
-                    "section": chunk["section"],
-                    "text": chunk["text"],
-                    "score": float(score)
-                })
-    
-    # Sort by score descending and return top k
+
+    # 🚨 STRICT service enforcement
+    if not service:
+        raise ValueError(
+            "Service must be specified for retrieval to avoid cross-service leakage."
+        )
+
+    if service not in indices:
+        raise ValueError(
+            f"Service '{service}' not found. Available: {get_available_services()}"
+        )
+
+    # Search ONLY the requested service
+    index = indices[service]
+    metadata = metadata_store[service]
+
+    scores, idxs = index.search(query_embedding, k)
+
+    for idx, score in zip(idxs[0], scores[0]):
+        if idx < len(metadata):
+            chunk = metadata[idx]
+
+            # 🛡️ Final safety guard
+            if chunk.get("service") != service:
+                continue
+
+            results.append({
+                "service": chunk["service"],
+                "state": chunk["state"],
+                "section": chunk["section"],
+                "text": chunk["text"],
+                "score": float(score)
+            })
+
+    # Sort by similarity
     results.sort(key=lambda x: x["score"], reverse=True)
-    return results[:k] if service else results[:k * len(services_to_search)]
+
+    return results
